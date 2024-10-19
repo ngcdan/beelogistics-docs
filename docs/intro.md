@@ -24,6 +24,8 @@ Sau khi truy cập trang web, bạn cần đăng nhập để sử dụng các t
    - Mật khẩu (`Password`): [Mật khẩu của bạn]
 3. Nhấp vào nút "Đăng nhập" để truy cập vào hệ thống.
 
+![login.gif](./img/login.gif)
+
 ### Lưu ý:
 - Nếu bạn quên mật khẩu, hãy sử dụng tính năng "Quên mật khẩu" trên trang đăng nhập.
 - Đảm bảo giữ bí mật thông tin đăng nhập của bạn và không chia sẻ với người khác.

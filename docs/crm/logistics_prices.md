@@ -30,7 +30,7 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
       - **New FCL Import**: màn hình input dữ liệu FCL Import.
   - Tương tự với các phần khác….
 
-## 3 .My Pricing List** - quản lý giá do mình input (nhiều loại hình).
+## 3 .My Pricing List - quản lý giá do mình input
   - ở thanh điều hướng click chọn **My Pricing List (Logistics)** → chọn giá xe cont hoặc giá xe tải.
 
   ![Screenshot 2024-10-18 at 16.50.02.png](/img/crm/Screenshot_2024-10-18_at_16.50.02.png)
@@ -52,7 +52,7 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
 
 ### c. Chức năng xuất dữ liệu theo định dạng excel.
 
-## 4 . Màn hình tìm kiếm giá chia theo từng loại hình.
+## 4 . Màn hình danh sách giá
 
   Màn hình danh sách bảng giá theo từng loại hình được highlight như hình dưới:
 
@@ -67,7 +67,7 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
           />
       </div>
 
-## 5 .Nhập liệu, upload dữ liệu bảng giá  FCL/ LCL, Air.
+## 5 .Nhập liệu, upload bảng giá  FCL/ LCL, Air.
   - ở thanh điều hướng click chọn **New FCL Export - Ocean Freight (FCL).**
   - Màn hình gồm 2 phần: Form thông tin chung và bảng dữ liệu:
 
@@ -110,7 +110,7 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
         allowFullScreen />
   </div>
 
-## 6 .Nhập liệu, upload dữ liệu bảng giá trucking (Cont/ Truck)
+## 6 .Nhập liệu, upload bảng giá trucking (Cont/ Truck)
 
 ###  a. Xe tải
   ![Screenshot 2024-10-18 at 08.01.19.png](/img/crm/Screenshot_2024-10-18_at_08.01.19.png)
