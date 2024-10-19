@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tổng Quan
+# Tổng quan
 
 Hệ thống CRM được xây dựng nhằm mục tiêu quản lý tập trung cơ sở dữ liệu, tăng năng suất và tối ưu hóa các quy trình kinh doanh trong lĩnh vực logistics. Hệ thống bao gồm hai đối tượng người dùng: **Internal** và **External**, với hai module chính: **Logistics Prices** và **Logistics Sales**.
 
