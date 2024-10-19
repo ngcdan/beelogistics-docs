@@ -7,13 +7,13 @@ sidebar: false
 
 Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ giá của các Line/ Airline/ thầu phụ.
 
-### 1. Truy cập App.
+## 1. Truy cập App.
 
     Ở màn hình phần mềm, click chọn Logo công ty góc phải để vào danh sách modules. Click chọn Logistics Prices.
 
     ![1.gif](/img/crm/1.gif)
 
-### 2. Màn hình Dashboard.
+## 2. Màn hình Dashboard.
 
   Mặc định, phần mềm vào màn hình **Overview** (màn hình tổng quan).
 
@@ -30,14 +30,14 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
       - **New FCL Import**: màn hình input dữ liệu FCL Import.
   - Tương tự với các phần khác….
 
-### 3 .My Pricing List** - quản lý giá do mình input (nhiều loại hình).
+## 3 .My Pricing List** - quản lý giá do mình input (nhiều loại hình).
   - ở thanh điều hướng click chọn **My Pricing List (Logistics)** → chọn giá xe cont hoặc giá xe tải.
 
   ![Screenshot 2024-10-18 at 16.50.02.png](/img/crm/Screenshot_2024-10-18_at_16.50.02.png)
 
-  - **Chức năng:**
-      1. Copy dữ liệu (copy theo dòng hoặc copy nhiều dòng), thao tác như hình ở dưới.
-      <!-- [https://youtu.be/X-5uc2S5oBM](https://youtu.be/X-5uc2S5oBM) -->
+### - **Chức năng:**
+### a. Copy dữ liệu (copy theo dòng hoặc copy nhiều dòng), thao tác như hình ở dưới.
+    <!-- [https://youtu.be/X-5uc2S5oBM](https://youtu.be/X-5uc2S5oBM) -->
 
   <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
     <iframe
@@ -48,11 +48,11 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
           allowFullScreen />
   </div>
 
-  b. Chức năng xoá dữ liệu, chỉnh sửa dữ liệu trên bảng.
+### b. Chức năng xoá dữ liệu, chỉnh sửa dữ liệu trên bảng.
 
-  b. Chức năng xuất dữ liệu theo định dạng excel.
+### c. Chức năng xuất dữ liệu theo định dạng excel.
 
-### 4 . Màn hình tìm kiếm giá chia theo từng loại hình.
+## 4 . Màn hình tìm kiếm giá chia theo từng loại hình.
 
   Màn hình danh sách bảng giá theo từng loại hình được highlight như hình dưới:
 
@@ -67,7 +67,7 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
           />
       </div>
 
-### 5 .Nhập liệu, upload dữ liệu bảng giá  FCL/ LCL, Air.
+## 5 .Nhập liệu, upload dữ liệu bảng giá  FCL/ LCL, Air.
   - ở thanh điều hướng click chọn **New FCL Export - Ocean Freight (FCL).**
   - Màn hình gồm 2 phần: Form thông tin chung và bảng dữ liệu:
 
@@ -110,9 +110,9 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
         allowFullScreen />
   </div>
 
-### 6 .Nhập liệu, upload dữ liệu bảng giá trucking (Cont/ Truck)
+## 6 .Nhập liệu, upload dữ liệu bảng giá trucking (Cont/ Truck)
 
-### Xe tải
+###  a. Xe tải
   ![Screenshot 2024-10-18 at 08.01.19.png](/img/crm/Screenshot_2024-10-18_at_08.01.19.png)
 
   Chuẩn bị file excel dữ liệu , có thể chia nhiều sheet cho nhiều thầu phụ.
@@ -144,7 +144,7 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
 
   ![Screenshot 2024-10-18 at 08.32.19.png](/img/crm/Screenshot_2024-10-18_at_08.32.19.png)
 
-### Xe Cont
+### b. Xe Cont
 
   ![Screenshot 2024-10-18 at 08.17.39.png](/img/crm/Screenshot_2024-10-18_at_08.17.39.png)
 
