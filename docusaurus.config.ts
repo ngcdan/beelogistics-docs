@@ -49,12 +49,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/beelogistics-social-card.jpg',
+    image: 'img/banner_web.png',
     navbar: {
-      title: 'Bee Logistics Docs',
       logo: {
         alt: 'Bee Logistics Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
+        href: '/',
       },
       items: [
         {
