@@ -18,11 +18,10 @@ Chào mừng bạn đến với hướng dẫn sử dụng hệ thống Bee Logi
 
 Sau khi truy cập trang web, bạn cần đăng nhập để sử dụng các tính năng của hệ thống:
 
-1. Tại trang chủ, tìm và nhấp vào nút "Đăng nhập" hoặc "`Login`".
-2. Nhập thông tin đăng nhập của bạn:
+1. Tại trang chủ, nhập thông tin đăng nhập của bạn:
    - Tên đăng nhập (`Username`): [Tên đăng nhập được cấp]
    - Mật khẩu (`Password`): [Mật khẩu của bạn]
-3. Nhấp vào nút "Đăng nhập" để truy cập vào hệ thống.
+2. Nhấp vào nút "Đăng nhập" để truy cập vào hệ thống.
 
 ![login.gif](./img/login.gif)
 
