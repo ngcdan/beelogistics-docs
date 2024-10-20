@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbeelogistics_docs=self.webpackChunkbeelogistics_docs||[]).push([[647],{1169:(e,s,c)=>{c.r(s),c.d(s,{default:()=>o});c(6372);var r=c(3394),t=c(9512),u=c(4375),a=c(2803),i=c(1360),l=c(216);function o(e){return(0,l.jsx)(t.e3,{className:(0,r.A)(u.G.wrapper.docsPages),children:(0,l.jsx)(i.A,{children:(0,a.v)(e.route.routes)})})}}}]);
