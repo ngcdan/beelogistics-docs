@@ -37,4 +37,18 @@ Sau khi đăng nhập thành công, bạn sẽ được chuyển đến trang ch
 - Tùy chỉnh thông tin cá nhân và cài đặt tài khoản.
 - Bắt đầu sử dụng các công cụ và chức năng để quản lý công việc logistics của bạn.
 
+![module](./img/app_list.png)
+
+Trên đây là danh sách các app với các nghiệp vụ chuyên biệt bao gồm:
+
+1. My Project, Spreadsheet là các phần liên quan đến tích đầu việc, theo dõi file thay thế file excel (theo cách cũ)
+
+2. OKR - theo dõi mục tiêu và kết quả
+
+3. TMS - phần mềm liên quan đến quản lý bill vận tải, đội xe
+
+4. Logistics Prices - Pricing Tools: Quản lý giá từ Line/ Airline/ Thầu phụ
+
+5. Logistics Sales: quản lý inquiry, báo giá, IB.
+
 Để được hỗ trợ thêm, vui lòng tham khảo các hướng dẫn chi tiết trong phần Tài liệu hoặc liên hệ với đội ngũ hỗ trợ của chúng tôi.
