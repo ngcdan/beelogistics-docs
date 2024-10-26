@@ -35,21 +35,22 @@ Phần mềm hiển thị kết quả gồm bảng thông tin giá cước và p
 
 ![./img/sales/sale_img1.png](./img/sales/sale_img1.png)
 
-- Click chọn tên Lines ở cột Carrier để xem các phụ phí đính kèm.
+ <hr />
+User tích chọn giá từ các Lines/ Agent -> Chọn _`Confirm`_ để chuyển qua màn hình Quotation.
 
-- User có thể thay đổi giá bán trực tiếp trên bảng.
+![./img/sales/confirm_quote.gif](./img/sales/confirm_quote.gif)
 
-- Chọn bảng giá ưng ý bằng cách tích vào ô cạnh tên Lines.
+ <hr />
+Hoặc chỉnh giá trực tiếp và export báo giá nhanh:
 
-- **Export** để xuất báo giá dạng excel.
+![./img/sales/img2.png](./img/sales/img2.png)
+- Add Origin/ Dest: Thêm phụ phí tại Origin/ Destination.
+- Clear Prices: Xoá phụ phí (bằng cách tick chọn).
+- Apply Margin: Áp dụng tỷ lệ margin với giá gốc (percent/ amount).
 
-![./img/image4.png](./img/image4.png)
+Click _`Export`_ để xuất báo giá excel hoặc _`Confirm`_ để chuyển qua màn hình quotation.
 
-e. Click **Confirm** để tạo báo giá (chuyển qua màn hình báo giá)
-
-![./img/image3.png](./img/image3.png)
-
-#### 2.2. Trường hợp không có giá sẵn trong hệ thống
+### 2.2. Trường hợp không có giá sẵn trong hệ thống
 
 1. Phần mềm hiển thị như màn hình dưới:
 
@@ -63,11 +64,11 @@ e. Click **Confirm** để tạo báo giá (chuyển qua màn hình báo giá)
    - Click **Next** để chuyển qua màn hình thông tin mail request đến pricing phụ trách.
    - Hoặc Click **Draft Quotation** để tạo bản nháp báo giá
 
-### 2.3. Chi tiết báo giá
+## 3. Màn hình quotation.
 
-Sau khi Confirm Quotation, phần mềm chuyển qua màn hình chi tiết báo giá.
+![./img/image3.png](./img/image3.png)
 
-#### 2.3.1. Thông tin Inquiry
+#### 3.1. Thông tin Inquiry
 
 - Request Date: ngày khách gửi yêu cầu
 - Client: thông tin khách hàng
@@ -77,11 +78,11 @@ Sau khi Confirm Quotation, phần mềm chuyển qua màn hình chi tiết báo 
 - Custom Clearance:
   - Tick chọn ***Port At Origin/ Port At Destination***, phần mềm sẽ hiển thị thêm màn hình giá cho dịch vụ khai quan.
 
-#### 2.3.2. Container Packing
+#### 3.2. Container Packing
 
 Thay đổi loại container, click save, phần mềm sẽ hiển thị thêm các tuỳ chọn mức giá tương ứng ở bảng giá phía dưới.
 
-#### 2.3.3. Ocean Freight/ Local Charge
+#### 3.3. Ocean Freight/ Local Charge
 
 ![./img/image6.png](./img/image6.png)
 

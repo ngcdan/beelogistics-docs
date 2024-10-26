@@ -5,7 +5,7 @@ toc: false
 
 # Prices: Tìm kiếm giá
 
-Trong module Prices, việc tìm kiếm và quản lý giá cả được thiết kế một cách trực quan và hiệu quả. Dưới đây là hướng dẫn chi tiết về cách sử dụng các tính năng tìm kiếm:
+Dưới đây là hướng dẫn chi tiết về cách sử dụng các tính năng tìm kiếm:
 
 ## Giao diện tổng quan
 
@@ -36,10 +36,14 @@ Click vào biểu tượng kính lúp ở góc phải để mở rộng các ti�
 
 - **Carrier, Agent:** Tìm theo hãng tàu hoặc đại lý
 - **Pricing Creator:** Tìm theo người tạo giá
-- **Ready To Load:** ngày hàng ready, phần mềm dựa theo ngày này để tìm kiếm tất cả giá trong hệ thống thoả mãn `ngày tạo < ready to load < ngày valid to`
+- **Ready To Load:** ngày hàng ready, phần mềm dựa theo ngày này để tìm kiếm tất cả giá trong hệ thống thoả mãn
+
+  `ngày tạo < ready to load < ngày valid to`
 
 - **From Location, To Location:** Tìm theo cảng đi và cảng đến
-- **Valid To:** Tìm kiếm giá theo khoảng ngày, mặc định lock, mở bằng cách xoá giá trị ở Ready To Load (chỉ sử dụng 1 trong 2 tiêu chí, không sử dụng đồng thời).
+- **Valid To:** Tìm kiếm giá theo khoảng ngày, mặc định lock, mở bằng cách xoá giá trị ở Ready To Load.
+
+  (chỉ sử dụng 1 trong 2 tiêu chí, không sử dụng đồng thời).
 
 - **Verify:**
     - Waiting: Bảng giá chưa được approve
