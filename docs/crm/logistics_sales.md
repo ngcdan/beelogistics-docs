@@ -9,50 +9,47 @@ sidebar_position: 4
 1. Góc trái màn hình, click chọn ở logo tên công ty để vào danh sách module.
 2. Click chọn module Logistics Sales.
 
-![./img/image10.png](./img/image10.png)
+![./img/sales/sale_access.gif](./img/sales/sale_access.gif)
 
-3. Phần mềm vào màn hình mặc định Dashboard
+<!-- ![./img/image10.png](./img/image10.png) -->
 
-## 2. Tạo báo giá cho từng tuyến riêng biệt (demo FCL)
+3. Phần mềm vào màn hình mặc định Dashboard - Overview
 
-### 2.1. Tạo yêu cầu báo giá
+## 2. Tạo yêu cầu báo giá - Match giá
+Tìm kiếm giá có sẵn từ hệ thống Pricing Tools (Logistics Prices).
 
-1. Trên màn hình Dashboard, click chọn "Request a Quote" để chuyển qua màn hình yêu cầu giá.
+Trên màn hình Dashboard, click chọn "Request a Quote" để chuyển qua màn hình yêu cầu giá.
 
-![./img/image9.png](./img/image9.png)
-
-2. Phần mềm chuyển qua màn hình tìm giá có sẵn trong hệ thống (từ module Pricings - Pricing Tools)
-
-![./img/image11.png](./img/image11.png)
-
-3. Nhập các thông tin cần thiết:
+Nhập các thông tin cần thiết:
    - Transportation Mode (Loại hình vận chuyển)
    - Origin of Shipment (cảng load)
    - Destination of Shipment (cảng dỡ)
    - Ready to Load (ngày hàng có thể vận chuyển) - phần mềm dựa vào ngày này để tìm giá valid
 
-4. Click **Match Price** để tìm giá.
+Click **Match Price** để tìm giá.
 
-### 2.2. Xử lý kết quả tìm giá
+![./img/sales/match_gia_2.gif](./img/sales/match_gia_2.gif)
 
-#### 2.2.1. Trường hợp có giá sẵn từ hệ thống Pricing
+### 2.1. Trường hợp có giá sẵn từ hệ thống Pricing
+Phần mềm hiển thị kết quả gồm bảng thông tin giá cước và phụ phí tương ứng.
 
-1. Phần mềm hiển thị kết quả như sau:
+![./img/sales/sale_img1.png](./img/sales/sale_img1.png)
 
-![./img/image2.png](./img/image2.png)
+- Click chọn tên Lines ở cột Carrier để xem các phụ phí đính kèm.
 
-2. Click chọn tên Lines ở cột Carrier để xem các phụ phí đính kèm.
-3. User có thể thay đổi giá trực tiếp trên bảng.
-4. Chọn bảng giá ưng ý bằng cách tích vào ô cạnh tên Lines.
-5. **Export Quotation** để xuất báo giá dạng excel.
+- User có thể thay đổi giá bán trực tiếp trên bảng.
+
+- Chọn bảng giá ưng ý bằng cách tích vào ô cạnh tên Lines.
+
+- **Export** để xuất báo giá dạng excel.
 
 ![./img/image4.png](./img/image4.png)
 
-6. Click **Confirm Quotation** để tạo báo giá.
+e. Click **Confirm** để tạo báo giá (chuyển qua màn hình báo giá)
 
 ![./img/image3.png](./img/image3.png)
 
-#### 2.2.2. Trường hợp không có giá sẵn trong hệ thống
+#### 2.2. Trường hợp không có giá sẵn trong hệ thống
 
 1. Phần mềm hiển thị như màn hình dưới:
 
