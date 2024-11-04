@@ -40,3 +40,8 @@ Sau khi nhập đầy đủ thông tin, click nút Request để tiến hành g�
 ### Demo:
 
 ![mail_request.gif](./img/mail_request.gif)
+
+Ở màn hình overview, phần mềm hiển thị danh sách các y/c đã thực hiện trước đó.
+
+![mail_request_list.png](./img/mail_request_list.png)
+
