@@ -24,35 +24,49 @@ Mặc định, hệ thống sẽ hiển thị các giá đang có hiệu lực (
 
 Có hai cách chính để tìm kiếm giá:
 
-![6_img2.png](./img/6_img2.png)
+![search_prices.png](./img/search_prices.png)
 
-### 1. Tìm kiếm nhanh
-
-Sử dụng thanh tìm kiếm ở góc trên cùng để nhập từ khóa. Hệ thống sẽ tìm kiếm trong tất cả thông tin hiển thị trên màn hình.
-
-### 2. Tìm kiếm nâng cao
-
-Click vào biểu tượng kính lúp ở góc phải để mở rộng các tiêu chí tìm kiếm:
+### 1. Tìm kiếm nâng cao
 
 - **Carrier, Agent:** Tìm theo hãng tàu hoặc đại lý
-- **Pricing Creator:** Tìm theo người tạo giá
-- **Ready To Load:** ngày hàng ready, phần mềm dựa theo ngày này để tìm kiếm tất cả giá trong hệ thống thoả mãn
 
-  `ngày tạo < ready to load < ngày valid to`
+- **Pricing Creator:** Tìm theo người tạo giá
 
 - **From Location, To Location:** Tìm theo cảng đi và cảng đến
-- **Valid To:** Tìm kiếm giá theo khoảng ngày, mặc định lock, mở bằng cách xoá giá trị ở Ready To Load.
 
-  (chỉ sử dụng 1 trong 2 tiêu chí, không sử dụng đồng thời).
+- **Valid To:** Tìm kiếm giá theo thời hạn hiệu lực. Hệ thống sẽ hiển thị các bảng giá có thời hạn hiệu lực từ ngày bạn nhập trở đi.
 
 - **Verify:**
     - Waiting: Bảng giá chưa được approve
     - Verified: Bảng giá đã được approve.
 
-- **Max Return:** Số lượng kết quả hiển thị tối đa
+- **Max Return:** Giới hạn số lượng kết quả hiển thị. Để tối ưu hiệu suất tìm kiếm và tải dữ liệu, bạn nên:
+  - Chỉ nhập số lượng kết quả thực sự cần thiết
+  - Kết hợp với các bộ lọc khác để thu hẹp phạm vi tìm kiếm
+  - Lọc dần kết quả từ tổng quan đến chi tiết
 
-Sau khi điền các tiêu chí, nhấn "Search" để thực hiện tìm kiếm:
+Để mở rộng khả năng tìm kiếm, bạn có thể nhấp vào biểu tượng kính lúp ở góc phải màn hình để truy cập thêm các tiêu chí tìm kiếm nâng cao
 
-![6_img3.png](./img/6_img3.png)
+### 2. Tìm kiếm nhanh
+
+Để thực hiện tìm kiếm nhanh, bạn có thể sử dụng thanh tìm kiếm được đặt ở góc trên cùng của màn hình.
+
+Chỉ cần nhập từ khóa cần tìm, hệ thống sẽ tự động lọc và hiển thị các kết quả phù hợp.
+
+Lưu ý quan trọng:
+
+Tính năng tìm kiếm nhanh chỉ thực hiện tìm kiếm trên dữ liệu đang được hiển thị trên màn hình hiện tại,
+không thực hiện tìm kiếm trong toàn bộ cơ sở dữ liệu. Điều này giúp tăng tốc độ tìm kiếm và cho kết quả ngay lập tức.
 
 Lưu ý: Phương pháp tìm kiếm này áp dụng tương tự cho các màn hình khác trong module Prices.
+
+
+### 3. Các tính năng bổ sung
+
+- **Làm mới dữ liệu**: Sử dụng nút Refresh để cập nhật và đồng bộ lại thông tin giá mới nhất từ hệ thống.
+
+- **Yêu cầu check giá**: Thông qua nút Request Pricing, bạn có thể gửi yêu cầu kiểm tra giá qua email trực tiếp đến Pricing Team.
+
+![extra_func.png](./img/extra_func.png)
+
+Chi tiết về cách sử dụng, vui lòng tham khảo [hướng dẫn tại đây](/docs/crm/prices_mail_request).
