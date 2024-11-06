@@ -49,14 +49,15 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/banner_web.png',
+    // image: 'img/banner_web.png',
     navbar: {
       logo: {
         alt: 'Bee Logistics Logo',
         src: 'img/logo.png',
-        href: '/',
+        href: '/docs/CRM_CHANGELOG',
       },
       items: [
+        { to: 'docs/CRM_CHANGELOG', label: 'Changelog', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
