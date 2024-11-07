@@ -45,13 +45,13 @@ Make sure you fulfill all of them before filing an issue.
 
 ### [R20241007]
 
-1. <input type="checkbox" disabled /> <span style={{ color: 'orange' }}> [Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Enhance]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Tổ chức lại menu, màn hình My Pricing List cho Air, Truck, Container, CBT, ...
+1. <input type="checkbox" disabled checked/> <span style={{ color: 'orange' }}> [Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Enhance]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Tổ chức lại menu, màn hình My Pricing List cho Air, Truck, Container, CBT, ...
 
 2. <input type="checkbox" disabled checked /> <span style={{ color: 'orange' }}>[Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Enhance]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Communication, đổi searchMessageAccount thành groovy mới. (support cho các tác vụ liên quan đến email)
 
 3. <input type="checkbox" disabled checked /> <span style={{ color: 'orange' }}> [Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Enhance]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Enhance seach/ chọn thông tin cảng, sân bay
 
-4. <input type="checkbox" disabled /> <span style={{ color: 'orange' }}>[Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Feature]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Sync thông tin email cho employee trong hệ thống.
+4. <input type="checkbox" disabled checked/> <span style={{ color: 'orange' }}>[Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Feature]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Sync thông tin email cho employee trong hệ thống.
 
 
 ### [R20241006]
