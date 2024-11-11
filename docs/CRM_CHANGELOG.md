@@ -31,15 +31,18 @@ Make sure you fulfill all of them before filing an issue.
 
 4. <input type="checkbox" disabled /> <span style={{ color: 'green' }}>[Low]</span> - <span style={{ backgroundColor: 'yellow' }}>#price</span> Generate template email client, pricing - màn hình quotation (đợi user thống nhất form mail)
 
+
+5. <input type="checkbox" disabled /> <span style={{ color: 'red' }}>[High]</span> - <span style={{ backgroundColor: 'red' }}>#sales</span> Cập nhật hướng dẫn module sales
+
 ### [R20241111]
 
-1. <input type="checkbox" disabled /> <span style={{ color: 'red' }}>[High]</span> - <span style={{ backgroundColor: 'red' }}>#price</span> Setup mail request pricing cho BEEHAN.
+1. <input type="checkbox" disabled checked/> <span style={{ color: 'red' }}>[High]</span> - <span style={{ backgroundColor: 'red' }}>#price</span> Setup mail request pricing cho BEEHAN.
 
-2. <input type="checkbox" disabled /> <span style={{ color: 'red' }}>[High]</span> - <span style={{ backgroundColor: 'red' }}>#price</span> Template upload giá LCL Export.
+2. <input type="checkbox" disabled checked/> <span style={{ color: 'red' }}>[High]</span> - <span style={{ backgroundColor: 'red' }}>#price</span> Template upload giá LCL Export.
 - LCC ở dest: biến động, chia theo COLOADER CNEE, DIRECT CNEE
 - Tạo thêm cột cho template/ render trên UI.
 
-3. <input type="checkbox" disabled /> <span style={{ color: 'orange' }}>[Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Feature]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Email lúc tạo, tự động fetch thông tin từ account
+3. <input type="checkbox" disabled checked/> <span style={{ color: 'orange' }}>[Medium]</span> - <span style={{ backgroundColor: 'yellow' }}>[Feature]</span> <span style={{ backgroundColor: 'yellow' }}>#price</span> Email lúc tạo, tự động fetch thông tin từ account
 
 
 ### [R20241107]
