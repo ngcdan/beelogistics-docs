@@ -3,7 +3,7 @@ sidebar_position: 3
 toc: false
 ---
 
-# Prices: Tìm kiếm giá
+# Tìm kiếm giá
 
 Dưới đây là hướng dẫn chi tiết về cách sử dụng các tính năng tìm kiếm:
 
@@ -16,7 +16,7 @@ Khi truy cập vào Dashboard của module, bạn sẽ thấy:
 
 Ví dụ, khi chọn "Import Pricing", màn hình sẽ hiển thị như sau:
 
-![6_img1.png](./img/6_img1.png)
+![6_img1.png](../img/6_img1.png)
 
 Mặc định, hệ thống sẽ hiển thị các giá đang có hiệu lực (ngày hết hạn lớn hơn ngày hiện tại).
 
@@ -24,7 +24,7 @@ Mặc định, hệ thống sẽ hiển thị các giá đang có hiệu lực (
 
 Có hai cách chính để tìm kiếm giá:
 
-![search_prices.png](./img/search_prices.png)
+![search_prices.png](../img/search_prices.png)
 
 ### 1. Tìm kiếm nâng cao
 
@@ -67,6 +67,6 @@ Lưu ý: Phương pháp tìm kiếm này áp dụng tương tự cho các màn h
 
 - **Yêu cầu check giá**: Thông qua nút Request Pricing, bạn có thể gửi yêu cầu kiểm tra giá qua email trực tiếp đến Pricing Team.
 
-![extra_func.png](./img/extra_func.png)
+![extra_func.png](../img/extra_func.png)
 
 Chi tiết về cách sử dụng, vui lòng tham khảo [hướng dẫn tại đây](/docs/crm/prices_mail_request).

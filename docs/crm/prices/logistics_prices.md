@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 sidebar: false
 ---
 
-# Logistics Prices
+# Tổng quan.
 
 Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ giá của các Line/ Airline/ thầu phụ.
 
