@@ -56,4 +56,6 @@ Trên màn hình **danh sách Customers**, dưới thanh công cụ, nhấp vào
 
 Phần mềm sẽ hiển thị một **biểu mẫu thông tin** cần nhập. Vui lòng điền đầy đủ thông tin và nhấp vào **Create** để gửi **yêu cầu**.
 
+![Form Customer](./img/sales/form_customer.png)
+
 
