@@ -25,7 +25,7 @@ Trước khi bắt đầu tạo báo giá, anh chị cần kiểm tra thông tin
 
 Lưu ý: Thông tin khách hàng được đồng bộ tự động từ hệ thống BFSOne. Nếu có bất kỳ sai sót hoặc cần cập nhật, vui lòng liên hệ IT để được hỗ trợ.
 
-### 2.2. Chính sách quản lý báo giá (Policy)
+### 2.2. Chính sách quản lý báo giá
 
 - Mỗi báo giá chỉ có một owner duy nhất
 - Owner có toàn quyền xem và quản lý báo giá của mình
@@ -57,5 +57,10 @@ Trên màn hình **danh sách Customers**, dưới thanh công cụ, nhấp vào
 Phần mềm sẽ hiển thị một **biểu mẫu thông tin** cần nhập. Vui lòng điền đầy đủ thông tin và nhấp vào **Create** để gửi **yêu cầu**.
 
 ![Form Customer](./img/sales/form_customer.png)
+
+Sau khi nhấn "Create" để gửi yêu cầu, hệ thống sẽ chuyển thông tin đến BFSOne để chờ phê duyệt từ người có thẩm quyền.
+
+Khi yêu cầu được phê duyệt, bạn có thể sử dụng thông tin khách hàng này cho các báo giá của mình.
+
 
 
