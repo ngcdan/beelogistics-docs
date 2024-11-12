@@ -125,9 +125,9 @@ Tab này liên quan đến thông tin và phân quyền cho người tham gia đ
 Ở màn hình Quotation, sau khi cập nhật thông tin, khách hàng confirm giá.
 
 Anh chị tiến hành tạo IB, request cus mở File, thao tác như sau:
-Click chọn Internal Booking trên thanh công cụ,
+Tích chọn giá Freight ở màn hình danh sách, sau đó click chọn Internal Booking trên thanh công cụ,
 
-![Placeholder for Create IB Image](./img/sales/create_ib.png)
+![Placeholder for Create IB Image](./img/sales/createIB.gif)
 
 Phần mềm chuyển qua màn hình thông tin IB:
 
