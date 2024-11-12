@@ -33,7 +33,7 @@ Người dùng có thể chọn giá từ các Lines/Agent và nhấn _`Confirm`
 
 Ngoài ra, có thể chỉnh sửa giá trực tiếp và xuất báo giá nhanh:
 
-![Placeholder for Quick Export Image](./img/sales/img2.png)
+![Placeholder for Quick Edit Image](./img/sales/fcl_edit_quote.gif)
 
 - **Add Origin/Dest**: Thêm phụ phí tại Origin/Destination.
 - **Clear Prices**: Xóa phụ phí (bằng cách tick chọn).
