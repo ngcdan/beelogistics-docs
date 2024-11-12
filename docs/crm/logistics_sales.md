@@ -18,3 +18,5 @@ c. Phần mềm vào màn hình mặc định Dashboard - Overview
 ## 2. Tìm kiếm giá
 
 - FCL [hướng dẫn tại đây](/docs/crm/fcl_process).
+
+- LCL [hướng dẫn tại đây](/docs/crm/lcl_process).
