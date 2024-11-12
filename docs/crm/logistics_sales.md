@@ -15,7 +15,7 @@ b. Click chọn module Logistics Sales.
 
 c. Phần mềm vào màn hình mặc định Dashboard - Overview
 
-## 2. Tìm kiếm giá
+## 2. Tìm giá, tạo/ xuất báo giá, tạo Internal Booking.
 
 - FCL [hướng dẫn tại đây](/docs/crm/fcl_process).
 
