@@ -58,9 +58,9 @@ Phần mềm sẽ hiển thị một **biểu mẫu thông tin** cần nhập. V
 
 ![Form Customer](./img/sales/form_customer.png)
 
-Sau khi nhấn "Create" để gửi yêu cầu, hệ thống sẽ chuyển thông tin đến BFSOne để chờ phê duyệt từ người có thẩm quyền.
+Sau khi nhấn **"Create"** để gửi yêu cầu, hệ thống sẽ chuyển thông tin đến **BFSOne** để chờ phê duyệt từ người có thẩm quyền.
 
-Khi yêu cầu được phê duyệt, bạn có thể sử dụng thông tin khách hàng này cho các báo giá của mình.
+Khi yêu cầu được phê duyệt, bạn có thể sử dụng thông tin khách hàng này cho các **báo giá** của mình.
 
 
 
