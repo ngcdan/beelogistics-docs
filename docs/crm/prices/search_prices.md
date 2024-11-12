@@ -69,4 +69,4 @@ Lưu ý: Phương pháp tìm kiếm này áp dụng tương tự cho các màn h
 
 ![extra_func.png](../img/extra_func.png)
 
-Chi tiết về cách sử dụng, vui lòng tham khảo [hướng dẫn tại đây](/docs/crm/prices_mail_request).
+Chi tiết về cách sử dụng, vui lòng tham khảo [hướng dẫn tại đây](/docs/crm/prices/mail_request).

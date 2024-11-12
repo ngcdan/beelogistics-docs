@@ -42,12 +42,22 @@ Lưu ý: Thông tin khách hàng được đồng bộ tự động từ hệ th
 
 Tùy theo loại hình vận chuyển, vui lòng tham khảo hướng dẫn chi tiết:
 
-- **Vận chuyển FCL (Full Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/fcl_process)
+- **Vận chuyển FCL (Full Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/fcl_process)
   - Quy trình tìm giá
   - Tạo và xuất báo giá
   - Tạo Internal Booking
 
-- **Vận chuyển LCL (Less Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/lcl_process)
+- **Vận chuyển LCL (Less Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/lcl_process)
+  - Quy trình tìm giá
+  - Tạo và xuất báo giá
+  - Tạo Internal Booking
+
+- **Vận chuyển hàng không (Air Freight)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/air_process)
+  - Quy trình tìm giá
+  - Tạo và xuất báo giá
+  - Tạo Internal Booking
+
+- **Vận chuyển đường bộ (Trucking)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/trucking_process)
   - Quy trình tìm giá
   - Tạo và xuất báo giá
   - Tạo Internal Booking
