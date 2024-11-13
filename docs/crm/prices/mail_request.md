@@ -57,3 +57,6 @@ Tại màn hình **Overview**, bạn có thể xem lại danh sách các yêu c�
 - Nếu tìm thấy, hệ thống sẽ hiển thị popup thông báo
 - Nhấn `OK` để tự động điền thông tin từ yêu cầu cũ vào form mới
 - Giúp tiết kiệm thời gian và đảm bảo tính nhất quán của thông tin
+
+![mail_remember.png](./img/mail_remember.png)
+
