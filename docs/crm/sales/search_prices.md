@@ -41,17 +41,51 @@ Lưu ý quan trọng:
 Tính năng tìm kiếm nhanh chỉ thực hiện tìm kiếm trên dữ liệu đang được hiển thị trên màn hình hiện tại,
 không thực hiện tìm kiếm trong toàn bộ cơ sở dữ liệu. Điều này giúp tăng tốc độ tìm kiếm và cho kết quả ngay lập tức.
 
-### 3. Các tính năng bổ sung
+### 3. Các tính năng hỗ trợ
 
-- **Yêu cầu check giá**: Thông qua nút Request Pricing, bạn có thể gửi yêu cầu kiểm tra giá qua email trực tiếp đến Pricing Team.
+- **Yêu cầu kiểm tra giá**: Bạn có thể gửi yêu cầu kiểm tra giá đến Pricing Team bằng cách nhấn nút "Request Pricing". Hệ thống sẽ tự động gửi email yêu cầu.
 
-- **Yêu cầu báo giá**: Tạo báo giá bằng cách click chọn giá cần báo ở bảng giá, sau đó click `Request a Quote`, phần mềm sẽ chuyển qua màn hình Quotation.
+- **Tạo báo giá**: Để tạo báo giá mới:
+  1. Chọn mức giá phù hợp từ bảng giá
+  2. Nhấn nút "Request a Quote"
+  3. Hệ thống sẽ chuyển bạn đến màn hình tạo báo giá
 
-- **Confirm giá (Pending)**: Gửi mail đến pricing input giá để review, confirm lại giá trước khi báo cho khách.
+- **Xuất báo giá**: Để xuất báo giá ra file Excel:
+  1. Chọn mức giá cần xuất
+  2. Nhấn nút "Export a Quote"
+  3. File Excel sẽ được tải về máy của bạn
 
 ![extra_func.png](./img/extra_func.png)
 
 Chi tiết về cách sử dụng, vui lòng tham khảo [hướng dẫn tại đây](/docs/crm/prices/mail_request).
+
+### 4. Xem biến động giá FCL Export
+
+Bạn có thể xem biến động giá theo thời gian bằng cách:
+
+1. Vào màn hình tìm kiếm giá FCL Export
+2. Nhấn nút "Analysis"
+
+Màn hình sẽ hiển thị:
+- Danh sách giá trước và sau thời điểm hiện tại
+- Giá bạn đang chọn sẽ được tô màu vàng
+- Cột "Comparison" cho biết % chênh lệch so với giá đang chọn
+
+- Để so sánh giá giữa các hãng tàu khác nhau, bạn có thể bỏ trống thông tin ở cột Carrier trong màn hình lọc. Điều này giúp bạn dễ dàng đánh giá và lựa chọn mức giá tốt nhất giữa các Lines.
+
+**Demo:**
+
+[https://youtu.be/ysdnwKeK9PM](https://youtu.be/ysdnwKeK9PM)
+
+  <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
+    <iframe
+          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+          src="https://www.youtube.com/embed/ysdnwKeK9PM"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen />
+  </div>
+
 
 #### Hướng dẫn quy trình tạo báo giá theo loại hình
 
