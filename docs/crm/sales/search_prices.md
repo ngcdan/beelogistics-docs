@@ -87,7 +87,7 @@ Màn hình sẽ hiển thị:
   </div>
 
 
-#### Hướng dẫn quy trình tạo báo giá theo loại hình
+### 5. Hướng dẫn quy trình tạo báo giá theo loại hình
 
 Tùy theo loại hình vận chuyển, vui lòng tham khảo hướng dẫn chi tiết:
 
