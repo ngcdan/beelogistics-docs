@@ -66,6 +66,8 @@ Bạn có thể xem biến động giá theo thời gian bằng cách:
 1. Vào màn hình tìm kiếm giá FCL Export
 2. Nhấn nút "Analysis"
 
+![./img/price_fcl_analysis.png](./img/price_fcl_analysis.png)
+
 Màn hình sẽ hiển thị:
 - Danh sách giá trước và sau thời điểm hiện tại
 - Giá bạn đang chọn sẽ được tô màu vàng
