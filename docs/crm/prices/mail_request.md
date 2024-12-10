@@ -32,7 +32,7 @@ Khi không tìm thấy giá phù hợp cho một tuyến vận chuyển cụ th�
   - Kéo thả file trực tiếp vào form
   - Hoặc chọn file từ máy tính
 
-> **Lưu ý**: Sau khi điền đầy đủ thông tin, nhấn `Request` để gửi yêu cầu
+> **Lưu ý**: Sau khi điền đầy đủ thông tin, nhấn `Send Request` để gửi yêu cầu
 
 ### Demo thao tác
 ![mail_request.gif](../img/mail_request.gif)
@@ -40,15 +40,21 @@ Khi không tìm thấy giá phù hợp cho một tuyến vận chuyển cụ th�
 ## Quản lý yêu cầu đã gửi
 
 ### Xem lại yêu cầu
-Tại màn hình **Overview**, bạn có thể xem lại danh sách các yêu cầu đã gửi trước đó:
+Trên thanh menu, chọn **Inquiry Requests**, bạn có thể xem lại danh sách các yêu cầu đã gửi trước đó:
 
-![mail_request_list.png](../img/mail_request_list.png)
+![mail_request_list.png](./img/mail_request_list.png)
 
-### Gửi lại yêu cầu
-Để tránh phải nhập lại thông tin khi gửi yêu cầu tương tự:
-1. Click vào cột **Ref** của yêu cầu cần gửi lại
-2. Form sẽ tự động điền các thông tin từ yêu cầu cũ
-3. Cập nhật thông tin cần thiết và gửi yêu cầu mới
+#### Các chức năng có sẵn trên màn hình.
+1. Chỉnh sửa và gửi lại yêu cầu cũ (được xử lý như một yêu cầu mới).
+
+Để tránh việc phải nhập lại thông tin khi gửi yêu cầu tương tự:
+- Nhấp vào biểu tượng ở đầu mỗi dòng, hệ thống sẽ tự động điền thông tin từ yêu cầu trước đó
+- Cập nhật các thông tin cần thiết và gửi yêu cầu mới
+
+2. Mở form và tạo yêu cầu mới (theo hướng dẫn đã nêu).
+3. Thay đổi quy trình của Yêu cầu.
+- Trong trường hợp thông tin gửi bị sai, cần thay đổi trạng thái thành `Reject`.
+- Thay đổi bằng cách click vào thông tin status ở cột Process
 
 ![resend_mail.png](./img/resend_mail.png)
 
@@ -59,4 +65,9 @@ Tại màn hình **Overview**, bạn có thể xem lại danh sách các yêu c�
 - Giúp tiết kiệm thời gian và đảm bảo tính nhất quán của thông tin
 
 ![mail_remember.png](./img/mail_remember.png)
+
+
+
+
+
 
