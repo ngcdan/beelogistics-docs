@@ -10,7 +10,6 @@ sidebar_position: 3
 
 Thao tác tìm kiếm giá, check giá như đã hướng dẫn trước đó.
 
-
 ## 2. Tạo báo giá.
 
 ### Trường hợp 1: Có giá trong hệ thống
@@ -33,11 +32,11 @@ Màn hình báo giá gồm:
 
 - Màn hình thông tin Inquiry (bên phải).
 
-![Placeholder for Inquiry Info](./img/inquiry-info.png)
+![Placeholder for Inquiry Info](./img/fcl_inquiry_info.png)
 
 - Màn hình thông tin container/ bảng thông tin báo giá. (bên trái)
 
-![Placeholder for Container/ Quote List](./img/quote_list.png)
+![Placeholder for Container/ Quote List](./img/fcl_quote_list.png)
 
 ### Thông tin cước biển và Local Charge.
 
@@ -50,7 +49,7 @@ Màn hình danh sách cước Ocean Freight
 
 ##### (1) Ở màn hình Ocean Freight có các nút chức năng như:
 
-![Placeholder for Ocean Freight/Local Charge Image](./img/ocean-freight-quote.png)
+![Placeholder for Ocean Freight/Local Charge Image](./img/ocean_freight_quote.png)
 
 - **Apply Margin** : Áp dụng tỷ lệ margin với giá gốc (percent/amount).
 
@@ -78,7 +77,7 @@ Ngoài ra, ở đầu mỗi dòng báo giá có các nút lần lượt là **co
 
 Lưu ý, màn hình nhập thông tin giá Trucking có thể không hiển thị, điều này phụ thuộc vào incoterm (Tab thông tin Inquiry).
 
-![Placeholder for Custom / Trucking](./img/custom-trucking-quote.png)
+![Placeholder for Custom / Trucking](./img/fcl_custom_trucking_quote.png)
 
 - **Add Origin**: Thêm Trucking/ Khai quan at Origin.
 
@@ -112,7 +111,7 @@ Phần mềm chuyển qua màn hình thông tin IB:
 
 Điền các thông tin cần thiết, sau đó nhấp **Create** để tiến hành tạo. Lưu ý rằng các thông tin bắt buộc bao gồm: Khách hàng, Đại lý, Hãng tàu/Colader, Người gửi, Người nhận, ...
 
-![Placeholder for Create IB Image](./img/ib_info.png)
+![Placeholder for Create IB Image](./img/fcl_ib_info.png)
 
 Sau khi tạo, phần mềm hiển thị nút IBooking (BFSOne),
 anh chị click để gửi thông tin cho customer service mở file.
