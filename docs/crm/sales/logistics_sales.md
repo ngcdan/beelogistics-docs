@@ -25,7 +25,7 @@ b. Click chọn module Logistics Sales, phần mềm vào màn hình mặc đị
 
 Trước khi bắt đầu tạo báo giá, anh chị cần kiểm tra thông tin khách hàng được phân quyền ở phần __Customers__:
 
-![Customer](../img/sales/customers.png)
+![Customer](./img/customers.png)
 
 Lưu ý: Thông tin khách hàng được đồng bộ tự động từ hệ thống BFSOne. Nếu có bất kỳ sai sót hoặc cần cập nhật, vui lòng liên hệ IT để được hỗ trợ.
 
@@ -68,11 +68,11 @@ Hãy nhấp vào **Menu Customers** trong **Sidebar**.
 
 Trên màn hình **danh sách Customers**, dưới thanh công cụ, nhấp vào **New Customer** để yêu cầu tạo **khách hàng mới**.
 
-![Create Customer](../img/sales/create_customer.png)
+![Create Customer](./img/create_customer.png)
 
 Phần mềm sẽ hiển thị một **biểu mẫu thông tin** cần nhập. Vui lòng điền đầy đủ thông tin và nhấp vào **Create** để gửi **yêu cầu**.
 
-![Form Customer](../img/sales/form_customer.png)
+![Form Customer](./img/form_customer.png)
 
 Sau khi nhấn **"Create"** để gửi yêu cầu, hệ thống sẽ chuyển thông tin đến **BFSOne** để chờ phê duyệt từ người có thẩm quyền.
 

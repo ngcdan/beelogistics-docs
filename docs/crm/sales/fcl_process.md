@@ -45,7 +45,7 @@ Nhấn _`Export`_ để xuất báo giá Excel hoặc _`Confirm`_ để chuyển
 
 Nếu không có giá sẵn, phần mềm sẽ hiển thị một popup hỏi bạn có muốn tạo mail request tới pricing team hay không. Nhấn OK để chuyển qua màn hình request, hoặc Cancel để hủy.
 
-![Quick Request Image](../img/sales/quick_request.png)
+![Quick Request Image](./img/quote_request.png)
 
 ## 2. Tạo, xuất báo giá, gửi mail khách hàng
 
@@ -57,7 +57,7 @@ Tại đây, bạn có thể cập nhật **thông tin inquiry** ở màn hình 
 
 - Khi thay đổi **Term Of Service** thành **Door to Port**, **Door to Door** hoặc **Port to Door**, phần mềm sẽ hiển thị thêm tab thông tin giá **Trucking** ở bên phải (cuộn để xem).
 
-![Placeholder for Trucking Quote Image](../img/sales/trucking_quote.png)
+![Placeholder for Trucking Quote Image](./img/fcl_trucking_quote.png)
 
 - Tương tự, khi chọn **khai quan** ở **Origin/Destination**, phần mềm cũng hiển thị thêm tab thông tin **giá khai quan**.
 
@@ -65,13 +65,13 @@ Tại đây, bạn có thể cập nhật **thông tin inquiry** ở màn hình 
 
 #### Thông tin Container
 
-![Placeholder for container Image](../img/sales/container.png)
+![Placeholder for container Image](./img/container.png)
 
 Khi thay đổi loại container và nhấn lưu, phần mềm sẽ hiển thị thêm các tùy chọn mức giá tương ứng ở bảng giá phía dưới.
 
 #### Ocean Freight/Local Charge
 
-![Placeholder for Ocean Freight/Local Charge Image](../img/sales/fcl_freight.png)
+![Placeholder for Ocean Freight/Local Charge Image](./img/fcl_freight.png)
 
 
 - Màu vàng (giá đang chọn) - đánh dấu để phân biệt cho màn hình local charge ở dưới. (Mỗi bảng giá sẽ có các local charge riêng biệt)
@@ -95,7 +95,7 @@ Khi thay đổi loại container và nhấn lưu, phần mềm sẽ hiển thị
 
 #### Khai quan/ Trucking
 
-![Placeholder for Ocean Freight/Local Charge Image](../img/sales/trucking_custom.png)
+![Placeholder for Ocean Freight/Local Charge Image](./img/trucking_custom.png)
 
 - **Add Origin**: Thêm Trucking/ Khai quan at Origin.
 
@@ -111,7 +111,7 @@ Tab này liên quan đến thông tin và phân quyền cho người tham gia đ
 
 - Sau khi chỉnh sửa xong bảng giá, nhấn **Save** để lưu báo giá.
 
-![Placeholder for Ocean Freight/Local Charge Image](../img/sales/quote_func.png)
+![Placeholder for Ocean Freight/Local Charge Image](./img/fcl_quote_func.png)
 
 #### Các chức năng khác
 
@@ -133,7 +133,7 @@ Phần mềm chuyển qua màn hình thông tin IB:
 
 Điền các thông tin cần thiết, sau đó nhấp **Create** để tiến hành tạo. Lưu ý rằng các thông tin bắt buộc bao gồm: Khách hàng, Đại lý, Hãng tàu/Colader, Người gửi, Người nhận, ...
 
-![Placeholder for Create IB Image](../img/sales/ib_info.png)
+![Placeholder for Create IB Image](./img/ib_info.png)
 
 Sau khi tạo, phần mềm hiển thị nút IBooking (BFSOne),
 anh chị click để gửi thông tin cho customer service mở file.

@@ -43,7 +43,7 @@ Hoặc có thể chỉnh sửa giá trực tiếp:
 
 Nếu không có giá sẵn, phần mềm sẽ hiển thị một popup hỏi bạn có muốn tạo mail request tới pricing team hay không. Nhấn OK để chuyển qua màn hình request, hoặc Cancel để hủy.
 
-![Quick Request Image](../img/sales/quick_request.png)
+![Quick Request Image](./img/quick_request.png)
 
 ## 2. Tạo, xuất báo giá, gửi mail khách hàng
 
@@ -55,7 +55,7 @@ Tại đây, bạn có thể cập nhật **thông tin inquiry** ở màn hình 
 
 - Khi thay đổi **Term Of Service** thành **Door to Port**, **Door to Door** hoặc **Port to Door**, phần mềm sẽ hiển thị thêm tab thông tin giá **Trucking** ở bên phải (cuộn để xem).
 
-![Placeholder for Trucking Quote Image](../img/sales/trucking_quote.png)
+![Placeholder for Trucking Quote Image](./img/lcl_trucking_quote.png)
 
 - Tương tự, khi chọn **khai quan** ở **Origin/Destination**, phần mềm cũng hiển thị thêm tab thông tin **giá khai quan**.
 
@@ -63,7 +63,7 @@ Tại đây, bạn có thể cập nhật **thông tin inquiry** ở màn hình 
 
 #### Ocean Freight/Local Charge
 
-![Placeholder for Ocean Freight/Local Charge Image](../img/sales/lcl/img_lcl_quote_1.png)
+![Placeholder for Ocean Freight/Local Charge Image](./img/lcl_freight.png)
 
 - Màu vàng (giá đang chọn) - đánh dấu để phân biệt cho màn hình local charge ở dưới. (Mỗi bảng giá sẽ có các local charge riêng biệt)
 - Thay đổi tùy chọn bằng cách click vào biểu tượng.
@@ -86,7 +86,7 @@ Tại đây, bạn có thể cập nhật **thông tin inquiry** ở màn hình 
 
 #### Khai quan/ Trucking
 
-![Placeholder for Ocean Freight/Local Charge Image](../img/sales/trucking_custom.png)
+![Placeholder for Ocean Freight/Local Charge Image](./img/trucking_custom.png)
 
 - **Add Origin**: Thêm Trucking/ Khai quan at Origin.
 
@@ -102,7 +102,7 @@ Tab này liên quan đến thông tin và phân quyền cho người tham gia đ
 
 - Sau khi chỉnh sửa xong bảng giá, nhấn **Save** để lưu báo giá.
 
-![Placeholder for Ocean Freight/Local Charge Image](../img/sales/quote_func.png)
+![Placeholder for Ocean Freight/Local Charge Image](./img/lcl_quote_func.png)
 
 #### Các chức năng khác
 

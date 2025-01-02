@@ -20,7 +20,7 @@ _Báo IT support nếu bạn không nhìn thấy Module Sales trên màn hình d
 ## Giao diện tổng quan
 Ở màn hình Dashboard, chọn `Quick Rate Finder` trên Sidebar bên phải để vào màn hình tìm kiếm giá.
 
-![rate_finder.png](./img/rate_finder.png)
+![rate_finder.png](./img/quick_rate_finder.png)
 
 Mặc định, hệ thống sẽ hiển thị các giá đang có hiệu lực (ngày hết hạn lớn hơn ngày hiện tại).
 
