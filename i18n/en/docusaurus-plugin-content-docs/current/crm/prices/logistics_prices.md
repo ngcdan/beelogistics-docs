@@ -3,40 +3,40 @@ sidebar_position: 1
 sidebar: false
 ---
 
-# Tổng quan.
+# Overview
 
-Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ giá của các Line/ Airline/ thầu phụ.
+The operations involve inputting or automatically retrieving prices from the rates of Lines/Airlines/subcontractors.
 
-## 1. Truy cập App.
+## 1. Access the App
 
-    Ở màn hình phần mềm, click chọn Logo công ty góc phải để vào danh sách modules. Click chọn Logistics Prices.
+    On the software screen, click the company logo in the top right corner to access the module list. Click on Logistics Prices.
 
     ![1.gif](/img/crm/1.gif)
 
-## 2. Màn hình Dashboard.
+## 2. Dashboard Screen
 
-  Mặc định, phần mềm vào màn hình **Overview** (màn hình tổng quan).
+  By default, the software opens to the **Overview** screen.
 
   ![Screenshot 2024-10-18 at 16.34.22.png](/img/crm/Screenshot_2024-10-18_at_16.34.22.png)
 
-  Bên phải là thanh điều hướng, cho phép chuyển đổi giữa các màn hình chức năng khác nhau có trong app.
+  On the right is the navigation bar, allowing you to switch between different functional screens within the app.
 
-  - **Monitor** là màn hình giám sát, gồm các thông tin như phân quyền, băng thông sử dụng, tên người dùng truy cập, …
-  - Phần **Ocean Freight (FCL)** bao gồm:
-      - **My Pricing List**: quản lý giá của user input.
-      - **Export Pricing**: danh sách giá FCL Export trong hệ thống.
-      - **New FCL Export**: màn hình input dữ liệu FCL Export.
-      - **Import Pricing**: danh sách giá FCL Import trong hệ thống.
-      - **New FCL Import**: màn hình input dữ liệu FCL Import.
-  - Tương tự với các phần khác….
+  - **Monitor** is the monitoring screen, including information such as permissions, bandwidth usage, user access names, etc.
+  - The **Ocean Freight (FCL)** section includes:
+      - **My Pricing List**: manages user input prices.
+      - **Export Pricing**: list of FCL Export prices in the system.
+      - **New FCL Export**: input screen for FCL Export data.
+      - **Import Pricing**: list of FCL Import prices in the system.
+      - **New FCL Import**: input screen for FCL Import data.
+  - Similar for other sections...
 
-## 3 .My Pricing List - quản lý giá do mình input
-  - ở thanh điều hướng click chọn **My Pricing List (Logistics)** → chọn giá xe cont hoặc giá xe tải.
+## 3. My Pricing List - Manage Prices You Input
+  - In the navigation bar, click **My Pricing List (Logistics)** → select container or truck prices.
 
   ![Screenshot 2024-10-18 at 16.50.02.png](/img/crm/Screenshot_2024-10-18_at_16.50.02.png)
 
-### - **Chức năng:**
-### a. Copy dữ liệu (copy theo dòng hoặc copy nhiều dòng), thao tác như hình ở dưới.
+### - **Functions:**
+### a. Copy data (copy by row or multiple rows), as shown in the image below.
     <!-- [https://youtu.be/X-5uc2S5oBM](https://youtu.be/X-5uc2S5oBM) -->
 
   <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
@@ -48,13 +48,13 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
           allowFullScreen />
   </div>
 
-### b. Chức năng xoá dữ liệu, chỉnh sửa dữ liệu trên bảng.
+### b. Function to delete data, edit data on the table.
 
-### c. Chức năng xuất dữ liệu theo định dạng excel.
+### c. Function to export data in Excel format.
 
-## 4 . Màn hình danh sách giá
+## 4. Price List Screen
 
-  Màn hình danh sách bảng giá theo từng loại hình được highlight như hình dưới:
+  The price list screen for each type is highlighted as shown below:
 
   **Demo:**
       <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
@@ -67,36 +67,36 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
           />
       </div>
 
-## 5 .Nhập liệu, upload bảng giá  FCL/ LCL, Air.
-  - ở thanh điều hướng click chọn **New FCL Export - Ocean Freight (FCL).**
-  - Màn hình gồm 2 phần: Form thông tin chung và bảng dữ liệu:
+## 5. Enter Data, Upload FCL/LCL, Air Price List
+  - In the navigation bar, click **New FCL Export - Ocean Freight (FCL).**
+  - The screen consists of two parts: General Information Form and Data Table:
 
   ![Screenshot 2024-10-18 at 17.22.55.png](/img/crm/Screenshot_2024-10-18_at_17.22.55.png)
 
   ---
 
-  **Form Thông Tin Chung:**
+  **General Information Form:**
 
-  - Đây là thông tin chung áp dụng cho tất cả các dữ liệu bảng giá phía dưới.
-  - Các trường thông tin bắt buộc phải điền bao gồm: *Currency*, *Effective Date*, và *Valid To Date*.
-  - Các thông tin khác như *Carrier*, *Agent*, *Port Of Loading*, *Port Of Discharge*, v.v., là thông tin tùy chọn, không bắt buộc nhập.
+  - This is general information applicable to all price data below.
+  - Required fields include: *Currency*, *Effective Date*, and *Valid To Date*.
+  - Other information such as *Carrier*, *Agent*, *Port Of Loading*, *Port Of Discharge*, etc., is optional.
 
-  **Bảng dữ liệu**: màn hình thông tin giá nhập từ giao diện (*Add*) hoặc từ file excel (*Upload*).
+  **Data Table**: price information screen entered from the interface (*Add*) or from an Excel file (*Upload*).
 
-  **Các Nút Chức Năng:**
+  **Function Buttons:**
 
-  - **Add**: Thêm một dòng mới vào bảng giá.
-  - **Del**: Xóa dòng được chọn bằng cách tick vào ô tương ứng.
-  - **Upload**: Tải, input dữ liệu từ file Excel.
-  - **Template**: Tải xuống file Excel template dùng để upload dữ liệu.
-  - **Clear**: Xóa toàn bộ dữ liệu hiển thị trên màn hình bảng giá (chỉ xóa dữ liệu hiển thị, không làm mất dữ liệu đã được upload).
-  - **Save Change**: Lưu lại tất cả các thay đổi trên màn hình nhập dữ liệu.
+  - **Add**: Add a new row to the price table.
+  - **Del**: Delete the selected row by ticking the corresponding box.
+  - **Upload**: Load, input data from an Excel file.
+  - **Template**: Download the Excel template file used to upload data.
+  - **Clear**: Delete all data displayed on the price table screen (only deletes displayed data, does not lose uploaded data).
+  - **Save Change**: Save all changes on the data entry screen.
 
-  **Quy trình ưu tiên** là nếu dữ liệu upload từ file excel có sẵn thì lấy dữ liệu từ file Excel trước; nếu không có dữ liệu trong Excel thì mới lấy từ form thông tin chung.
+  **Priority Process** is if data is available from an uploaded Excel file, it will take data from the Excel file first; if there is no data in Excel, it will take from the general information form.
 
-  **Lưu ý:**
+  **Note:**
 
-  - Các thông tin hiển thị trên màn hình này sẽ chưa được lưu cho đến khi người dùng nhấn nút ***Save Change***.
+  - Information displayed on this screen will not be saved until the user clicks the ***Save Change*** button.
 
   **Demo:**
   [https://youtu.be/1eOtZOrJniU](https://youtu.be/1eOtZOrJniU)
@@ -110,20 +110,20 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
         allowFullScreen />
   </div>
 
-## 6 .Nhập liệu, upload bảng giá trucking (Cont/ Truck)
+## 6. Enter Data, Upload Trucking Price List (Cont/Truck)
 
-###  a. Xe tải
+###  a. Truck
   ![Screenshot 2024-10-18 at 08.01.19.png](/img/crm/Screenshot_2024-10-18_at_08.01.19.png)
 
-  Chuẩn bị file excel dữ liệu , có thể chia nhiều sheet cho nhiều thầu phụ.
+  Prepare an Excel data file, which can be divided into multiple sheets for different subcontractors.
 
-  Download file mẫu theo link: [*https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EWhZI38zTGBCvQDWIVCLyOQBwu66JktPkZdVM8Tl_jSgJA?e=dUGcqw*](https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EWhZI38zTGBCvQDWIVCLyOQBwu66JktPkZdVM8Tl_jSgJA?e=dUGcqw)
+  Download the sample file from the link: [*https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EWhZI38zTGBCvQDWIVCLyOQBwu66JktPkZdVM8Tl_jSgJA?e=dUGcqw*](https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EWhZI38zTGBCvQDWIVCLyOQBwu66JktPkZdVM8Tl_jSgJA?e=dUGcqw)
 
-  - Sau khi chuẩn bị xong file excel, ở màn hình dashboard click chọn nút **Truck**
+  - After preparing the Excel file, on the dashboard screen, click the **Truck** button.
 
   ![Screenshot 2024-10-18 at 08.26.10.png](/img/crm/Screenshot_2024-10-18_at_08.26.10.png)
 
-  - Thao tác choose file và tiến hành upload.
+  - Perform the choose file action and proceed to upload.
   [https://youtu.be/oEc6o5bTyII](https://youtu.be/oEc6o5bTyII)
 
   <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
@@ -136,34 +136,30 @@ Nghiệp vụ liên quan đến việc input hoặc lấy giá tự động từ
   </div>
 
 
-  - Phần mềm thông báo thông tin upload, kiểm tra lại thông tin ở màn hình bên dưới, có thể
+  - The software notifies upload information, check the information on the screen below, and make adjustments if necessary. Click ***Save Changes** to save the data**.***
 
-  chỉnh sửa lại nếu cần. Click ***Save Changes** để tiến hành lưu dữ liệu**.***
-
-  Kiểm tra lại dữ liệu vừa upload, ở sidebar chọn **My Pricing List**
+  Check the uploaded data again, in the sidebar select **My Pricing List**
 
   ![Screenshot 2024-10-18 at 08.32.19.png](/img/crm/Screenshot_2024-10-18_at_08.32.19.png)
 
-### b. Xe Cont
+### b. Container
 
   ![Screenshot 2024-10-18 at 08.17.39.png](/img/crm/Screenshot_2024-10-18_at_08.17.39.png)
 
-  Chuẩn bị file excel dữ liệu , có thể chia nhiều sheet cho nhiều thầu phụ.
+  Prepare an Excel data file, which can be divided into multiple sheets for different subcontractors.
 
-  Download file mẫu theo link: [*https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EWhZI38zTGBCvQDWIVCLyOQBwu66JktPkZdVM8Tl_jSgJA?e=dUGcqw*](https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EaFHoJWIflZEnuBuKdrRgkwBIPOsQLbjEyWp2zzLGkC39w?e=8y3qrG)
+  Download the sample file from the link: [*https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EWhZI38zTGBCvQDWIVCLyOQBwu66JktPkZdVM8Tl_jSgJA?e=dUGcqw*](https://adminbeelogistics-my.sharepoint.com/:x:/g/personal/jesse_vnhph_beelogistics_com/EaFHoJWIflZEnuBuKdrRgkwBIPOsQLbjEyWp2zzLGkC39w?e=8y3qrG)
 
-  - Sau khi chuẩn bị xong file excel, ở màn hình dashboard click chọn nút **Container**.
+  - After preparing the Excel file, on the dashboard screen, click the **Container** button.
 
   ![Screenshot 2024-10-18 at 08.17.59.png](/img/crm/Screenshot_2024-10-18_at_08.17.59.png)
 
-  - Thao tác choose file và tiến hành upload.
+  - Perform the choose file action and proceed to upload.
 
   ![Screenshot 2024-10-18 at 08.20.11.png](/img/crm/Screenshot_2024-10-18_at_08.20.11.png)
 
-  - Phần mềm thông báo thông tin upload, kiểm tra lại thông tin ở màn hình bên dưới, có thể
-
-  chỉnh sửa lại nếu cần. Click ***Save Changes** để tiến hành lưu dữ liệu**.***
+  - The software notifies upload information, check the information on the screen below, and make adjustments if necessary. Click ***Save Changes** to save the data**.***
 
   ![Screenshot 2024-10-18 at 08.24.15.png](/img/crm/Screenshot_2024-10-18_at_08.24.15.png)
 
-  Kiểm tra lại dữ liệu vừa upload, ở sidebar chọn **My Pricing List → Chọn My Container Pricing.**
+  Check the uploaded data again, in the sidebar select **My Pricing List → Select My Container Pricing.**

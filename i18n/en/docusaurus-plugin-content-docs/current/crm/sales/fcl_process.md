@@ -2,130 +2,118 @@
 sidebar_position: 3
 ---
 
-# Quy trình FCL
+# FCL Process
 
-## 1. Tìm kiếm giá
+## 1. Price Search
 
-Để tìm kiếm giá có sẵn từ hệ thống Pricing Tools (Logistics Prices), thực hiện các bước sau:
+To search for available prices from the Pricing Tools system (Logistics Prices), follow these steps:
 
-Thao tác tìm kiếm giá, check giá như đã hướng dẫn trước đó.
+Perform the price search and check as previously instructed.
 
-## 2. Tạo báo giá.
+## 2. Create a Quote
 
-### Trường hợp 1: Có giá trong hệ thống
-Sau khi check và tìm thấy giá phù hợp, anh chị click chọn vào giá đó
-(có thể chọn nhiều giá từ các carrier khác nhau - đảm bảo chung tuyến).
+### Case 1: Price Available in the System
+After checking and finding a suitable price, click on that price
+(you can select multiple prices from different carriers - ensuring the same route).
 
-Click tiếp nút `Request a Quote` để tiến hành tạo báo giá.
+Then click the `Request a Quote` button to proceed with creating a quote.
 
-Ví dụ, thao tác chọn giá như hình. Phần mềm chuyển qua màn hình báo giá.
+For example, the action of selecting a price as shown. The software transitions to the quote screen.
 
 ![Placeholder for Select the Rates](./img/sales_request_quote.gif)
 
-### Trường hợp 2: Không có giá trong hệ thống
+### Case 2: Price Not Available in the System
 
-Nếu giá không có sẵn, anh chị có thể tự tạo báo giá custom bằng cách click vào nút `Request a Quote`.
+If the price is not available, you can create a custom quote by clicking the `Request a Quote` button.
 
-Ngoài ra, anh chị cũng có thể gửi request y/c check giá đến pricing team bằng cách click vào nút `Request Pricing`.
+Additionally, you can send a request to check the price to the pricing team by clicking the `Request Pricing` button.
 
-Màn hình báo giá gồm:
+The quote screen includes:
 
-- Màn hình thông tin Inquiry (bên phải).
+- Inquiry information screen (on the right).
 
 ![Placeholder for Inquiry Info](./img/fcl_inquiry_info.png)
 
-- Màn hình thông tin container/ bảng thông tin báo giá. (bên trái)
+- Container information screen/quote information table (on the left).
 
 ![Placeholder for Container/ Quote List](./img/fcl_quote_list.png)
 
-### Thông tin cước biển và Local Charge.
+### Ocean Freight and Local Charge Information
 
-Màn hình danh sách cước Ocean Freight
+Ocean Freight list screen
 
-(__Lưu ý__: hàng FCL, cước đã cộng thêm phần commission cho Sales của Lines).
+(__Note__: For FCL goods, the freight includes a commission for the Sales of the Lines).
 
- Màn hình Local Charge tương ứng.
- (nếu chọn nhiều giá, anh chị nhìn trên bảng Ocean Freight, Local Charge đang hiển thị tương ứng với giá có màu vàng - mỗi Local Charge tương ứng với từng giá cước)
+Corresponding Local Charge screen.
+(if selecting multiple prices, look at the Ocean Freight table, the Local Charge is displayed corresponding to the price highlighted in yellow - each Local Charge corresponds to each freight price)
 
-##### (1) Ở màn hình Ocean Freight có các nút chức năng như:
+##### (1) On the Ocean Freight screen, there are function buttons such as:
 
 ![Placeholder for Ocean Freight/Local Charge Image](./img/ocean_freight_quote.png)
 
-- **Apply Margin** : Áp dụng tỷ lệ margin với giá gốc (percent/amount).
+- **Apply Margin**: Apply a margin rate to the base price (percent/amount).
 
-- **Match Price**: Tìm lại giá từ hệ thống pricing. (TH pricing đã updated bổ sung thêm giá)
+- **Match Price**: Re-find the price from the pricing system. (In case pricing has been updated with additional prices)
 
-- **Add Price**: Thêm giá Ocean Freight thủ công, tạo thêm dòng mới trên bảng (TH không có sẵn giá từ hệ thống pricing tools).
+- **Add Price**: Manually add Ocean Freight price, creating a new line on the table (In case there is no available price from the pricing tools system).
 
-- **Clear Prices**: Xóa tất cả trên bảng. (chỉ xoá trên báo giá đang thực hiện, không ảnh hưởng đến dữ liệu pricing)
+- **Clear Prices**: Clear all on the table. (only clears on the current quote, does not affect pricing data)
 
-Ngoài ra, ở đầu mỗi dòng báo giá có các nút lần lượt là **copy, xem chi tiết, xóa**
+Additionally, at the beginning of each quote line, there are buttons for **copy, view details, delete**
 
-##### (2) Các chức năng liên quan đến Local Charge:
+##### (2) Functions related to Local Charge:
 
 ![Placeholder for Ocean Freight/Local Charge Image](./img/local-charge-quote.png)
 
-- **Add Origin**: Thêm Local Charge at Origin.
+- **Add Origin**: Add Local Charge at Origin.
 
-- **Add Dest**: Thêm Local Charge at Destination.
+- **Add Dest**: Add Local Charge at Destination.
 
-- **Apply Margin** : Áp dụng tỷ lệ margin với giá gốc (percent/amount).
+- **Apply Margin**: Apply a margin rate to the base price (percent/amount).
 
-- **Clear Prices**: Xóa tất cả trên bảng.
+- **Clear Prices**: Clear all on the table.
 
-#### Khai quan/ Trucking
+#### Customs/Trucking
 
-Lưu ý, màn hình nhập thông tin giá Trucking có thể không hiển thị, điều này phụ thuộc vào incoterm (Tab thông tin Inquiry).
+Note, the Trucking price information entry screen may not display, depending on the incoterm (Inquiry information tab).
 
 ![Placeholder for Custom / Trucking](./img/fcl_custom_trucking_quote.png)
 
-- **Add Origin**: Thêm Trucking/ Khai quan at Origin.
+- **Add Origin**: Add Trucking/Customs at Origin.
 
-- **Add Dest**: Thêm Trucking/ Khai quan at Destination.
+- **Add Dest**: Add Trucking/Customs at Destination.
 
-- **Clear Prices**: Xóa tất cả trên bảng.
+- **Clear Prices**: Clear all on the table.
 
-#### Chỉnh sửa và lưu báo giá
+#### Edit and Save Quote
 
-- Sau khi chỉnh sửa xong bảng giá, nhấn **Save** để lưu báo giá.
+- After editing the price table, press **Save** to save the quote.
 
 ![Placeholder for Ocean Freight/Local Charge Image](./img/fcl_quote_func.png)
 
-#### Các chức năng khác
+#### Other Functions
 
-- ***Export Quotation***: Xuất thông tin báo giá.
-- ***Mail***: Gửi mail cho khách hàng báo giá.
-- ***Copy***: Tạo bản sao quotation.
-- ***Internal Booking***: Tạo Booking trong hệ thống
+- ***Export Quotation***: Export quote information.
+- ***Mail***: Send quote email to the customer.
+- ***Copy***: Create a copy of the quotation.
+- ***Internal Booking***: Create a Booking in the system
 
-## 3. Tạo IB, đẩy thông tin qua hệ thống BFSOne.
+## 3. Create IB, Push Information to BFSOne System
 
-Ở màn hình Quotation, sau khi cập nhật thông tin, khách hàng confirm giá.
+On the Quotation screen, after updating the information, the customer confirms the price.
 
-Anh chị tiến hành tạo IB, request cus mở File, thao tác như sau:
-Tích chọn giá Freight ở màn hình danh sách, sau đó click chọn Internal Booking trên thanh công cụ,
+Proceed to create IB, request the customer to open the File, as follows:
+Select the Freight price on the list screen, then click Internal Booking on the toolbar,
 
 ![Placeholder for Create IB Image](../img/sales/createIB.gif)
 
-Phần mềm chuyển qua màn hình thông tin IB:
+The software transitions to the IB information screen:
 
-Điền các thông tin cần thiết, sau đó nhấp **Create** để tiến hành tạo. Lưu ý rằng các thông tin bắt buộc bao gồm: Khách hàng, Đại lý, Hãng tàu/Colader, Người gửi, Người nhận, ...
+Fill in the necessary information, then click **Create** to proceed. Note that the required information includes: Customer, Agent, Shipping Line/Colader, Shipper, Consignee, ...
 
 ![Placeholder for Create IB Image](./img/fcl_ib_info.png)
 
-Sau khi tạo, phần mềm hiển thị nút IBooking (BFSOne),
-anh chị click để gửi thông tin cho customer service mở file.
+After creation, the software displays the IBooking (BFSOne) button,
+click to send information to customer service to open the file.
 
 ![Placeholder for Create IB Image](../img/sales/push_to_bfsone.png)
-
-
-
-
-
-
-
-
-
-
-
-

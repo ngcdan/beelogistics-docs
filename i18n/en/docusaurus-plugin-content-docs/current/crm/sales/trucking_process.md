@@ -6,164 +6,163 @@ sidebar_position: 6
 
 ## Container
 
-### 1. Tìm kiếm giá
+### 1. Price Search
 
-Để tìm kiếm giá có sẵn từ hệ thống Pricing Tools (Logistics Prices), thực hiện các bước sau:
+To search for available prices from the Pricing Tools system (Logistics Prices), follow these steps:
 
-Thao tác tìm kiếm giá, check giá như đã hướng dẫn trước đó.
+Perform the price search and check as previously instructed.
 
-### 2. Tạo báo giá.
+### 2. Create a Quote
 
-#### Trường hợp 1: Có giá trong hệ thống
-Sau khi check và tìm thấy giá phù hợp, anh chị click chọn vào giá đó
-(có thể chọn nhiều giá từ các carrier khác nhau - đảm bảo chung tuyến).
+#### Case 1: Price Available in the System
+After checking and finding a suitable price, click on that price
+(you can select multiple prices from different carriers - ensuring the same route).
 
-Click tiếp nút `Request a Quote` để tiến hành tạo báo giá.
+Then click the `Request a Quote` button to proceed with creating a quote.
 
-Ví dụ, thao tác chọn giá như hình. Phần mềm chuyển qua màn hình báo giá.
+For example, the action of selecting a price as shown. The software transitions to the quote screen.
 
 ![Placeholder for Select the Rates](./img/sales_request_quote.gif)
 
-#### Trường hợp 2: Không có giá trong hệ thống
+#### Case 2: Price Not Available in the System
 
-Nếu giá không có sẵn, anh chị có thể tự tạo báo giá custom bằng cách click vào nút `Request a Quote`.
+If the price is not available, you can create a custom quote by clicking the `Request a Quote` button.
 
-Ngoài ra, anh chị cũng có thể gửi request y/c check giá đến pricing team bằng cách click vào nút `Request Pricing`.
+Additionally, you can send a request to check the price to the pricing team by clicking the `Request Pricing` button.
 
-Màn hình báo giá gồm:
+The quote screen includes:
 
-- Màn hình thông tin Inquiry (bên phải).
+- Inquiry information screen (on the right).
 
 ![Placeholder for Inquiry Info](./img/cont_inquiry_info.png)
 
-- Màn hình thông tin container/ bảng thông tin báo giá. (bên trái)
+- Container information screen/quote information table (on the left).
 
 ![Placeholder for Container/ Quote List](./img/cont_quote_list.png)
 
-##### Khai quan/ Trucking
+##### Customs/Trucking
 
-Lưu ý, màn hình nhập thông tin giá Trucking có thể không hiển thị, điều này phụ thuộc vào incoterm (Tab thông tin Inquiry).
+Note, the Trucking price information entry screen may not display, depending on the incoterm (Inquiry information tab).
 
 ![Placeholder for Custom / Trucking](./img/cont_custom_trucking_quote.png)
 
-- **Add Origin**: Thêm Trucking/ Khai quan at Origin.
+- **Add Origin**: Add Trucking/Customs at Origin.
 
-- **Add Dest**: Thêm Trucking/ Khai quan at Destination.
+- **Add Dest**: Add Trucking/Customs at Destination.
 
-- **Clear Prices**: Xóa tất cả trên bảng.
+- **Clear Prices**: Clear all on the table.
 
-##### Chỉnh sửa và lưu báo giá
+##### Edit and Save Quote
 
-- Sau khi chỉnh sửa xong bảng giá, nhấn **Save** để lưu báo giá.
+- After editing the price table, press **Save** to save the quote.
 
 ![Placeholder for Ocean Freight/Local Charge Image](./img/cont_quote_func.png)
 
-##### Các chức năng khác
+##### Other Functions
 
-- ***Export Quotation***: Xuất thông tin báo giá.
-- ***Mail***: Gửi mail cho khách hàng báo giá.
-- ***Copy***: Tạo bản sao quotation.
-- ***Internal Booking***: Tạo Booking trong hệ thống
+- ***Export Quotation***: Export quotation information.
+- ***Mail***: Send quotation email to the customer.
+- ***Copy***: Create a copy of the quotation.
+- ***Internal Booking***: Create a booking in the system.
 
-### 3. Tạo IB, đẩy thông tin qua hệ thống BFSOne.
+### 3. Create IB, Push Information to BFSOne System
 
-Ở màn hình Quotation, sau khi cập nhật thông tin, khách hàng confirm giá.
+On the Quotation screen, after updating the information, the customer confirms the price.
 
-Anh chị tiến hành tạo IB, request cus mở File, thao tác như sau:
-Tích chọn giá Freight ở màn hình danh sách, sau đó click chọn Internal Booking trên thanh công cụ,
+Proceed to create IB, request the customer to open the file, as follows:
+Select the Freight price on the list screen, then click Internal Booking on the toolbar,
 
 ![Placeholder for Create IB Image](../img/sales/createIB.gif)
 
-Phần mềm chuyển qua màn hình thông tin IB:
+The software transitions to the IB information screen:
 
-Điền các thông tin cần thiết, sau đó nhấp **Create** để tiến hành tạo. Lưu ý rằng các thông tin bắt buộc bao gồm: Khách hàng, Đại lý, Hãng tàu/Colader, Người gửi, Người nhận, ...
+Fill in the necessary information, then click **Create** to proceed. Note that the required information includes: Customer, Agent, Shipping Line/Coloader, Shipper, Consignee, ...
 
 ![Placeholder for Create IB Image](./img/cont_ib_info.png)
 
-Sau khi tạo, phần mềm hiển thị nút IBooking (BFSOne),
-anh chị click để gửi thông tin cho customer service mở file.
+After creation, the software displays the IBooking (BFSOne) button,
+click to send information to customer service to open the file.
 
 ![Placeholder for Create IB Image](../img/sales/push_to_bfsone.png)
 
 
 ## Truck
 
-### 1. Tìm kiếm giá
+### 1. Price Search
 
-Để tìm kiếm giá có sẵn từ hệ thống Pricing Tools (Logistics Prices), thực hiện các bước sau:
+To search for available prices from the Pricing Tools system (Logistics Prices), follow these steps:
 
-Thao tác tìm kiếm giá, check giá như đã hướng dẫn trước đó.
+Perform the price search and check as previously instructed.
 
-### 2. Tạo báo giá.
+### 2. Create a Quote
 
-#### Trường hợp 1: Có giá trong hệ thống
-Sau khi check và tìm thấy giá phù hợp, anh chị click chọn vào giá đó
-(có thể chọn nhiều giá từ các carrier khác nhau - đảm bảo chung tuyến).
+#### Case 1: Price Available in the System
+After checking and finding a suitable price, click on that price
+(you can select multiple prices from different carriers - ensuring the same route).
 
-Click tiếp nút `Request a Quote` để tiến hành tạo báo giá.
+Then click the `Request a Quote` button to proceed with creating a quote.
 
-Ví dụ, thao tác chọn giá như hình. Phần mềm chuyển qua màn hình báo giá.
+For example, the action of selecting a price as shown. The software transitions to the quote screen.
 
 ![Placeholder for Select the Rates](./img/sales_request_quote.gif)
 
-#### Trường hợp 2: Không có giá trong hệ thống
+#### Case 2: Price Not Available in the System
 
-Nếu giá không có sẵn, anh chị có thể tự tạo báo giá custom bằng cách click vào nút `Request a Quote`.
+If the price is not available, you can create a custom quote by clicking the `Request a Quote` button.
 
-Ngoài ra, anh chị cũng có thể gửi request y/c check giá đến pricing team bằng cách click vào nút `Request Pricing`.
+Additionally, you can send a request to check the price to the pricing team by clicking the `Request Pricing` button.
 
-Màn hình báo giá gồm:
+The quote screen includes:
 
-- Màn hình thông tin Inquiry (bên phải).
+- Inquiry information screen (on the right).
 
 ![Placeholder for Inquiry Info](./img/truck_inquiry_info.png)
 
-- Màn hình thông tin container/ bảng thông tin báo giá. (bên trái)
+- Container information screen/quote information table (on the left).
 
 ![Placeholder for Container/ Quote List](./img/truck_quote_list.png)
 
-##### Khai quan/ Trucking
+##### Customs/Trucking
 
-Lưu ý, màn hình nhập thông tin giá Trucking có thể không hiển thị, điều này phụ thuộc vào incoterm (Tab thông tin Inquiry).
+Note, the Trucking price information entry screen may not display, depending on the incoterm (Inquiry information tab).
 
 ![Placeholder for Custom / Trucking](./img/truck_custom_trucking_quote.png)
 
-- **Add Origin**: Thêm Trucking/ Khai quan at Origin.
+- **Add Origin**: Add Trucking/Customs at Origin.
 
-- **Add Dest**: Thêm Trucking/ Khai quan at Destination.
+- **Add Dest**: Add Trucking/Customs at Destination.
 
-- **Clear Prices**: Xóa tất cả trên bảng.
+- **Clear Prices**: Clear all on the table.
 
-##### Chỉnh sửa và lưu báo giá
+##### Edit and Save Quote
 
-- Sau khi chỉnh sửa xong bảng giá, nhấn **Save** để lưu báo giá.
+- After editing the price table, press **Save** to save the quote.
 
 ![Placeholder for Ocean Freight/Local Charge Image](./img/truck_quote_func.png)
 
-##### Các chức năng khác
+##### Other Functions
 
-- ***Export Quotation***: Xuất thông tin báo giá.
-- ***Mail***: Gửi mail cho khách hàng báo giá.
-- ***Copy***: Tạo bản sao quotation.
-- ***Internal Booking***: Tạo Booking trong hệ thống
+- ***Export Quotation***: Export quotation information.
+- ***Mail***: Send quotation email to the customer.
+- ***Copy***: Create a copy of the quotation.
+- ***Internal Booking***: Create a booking in the system.
 
-### 3. Tạo IB, đẩy thông tin qua hệ thống BFSOne.
+### 3. Create IB, Push Information to BFSOne System
 
-Ở màn hình Quotation, sau khi cập nhật thông tin, khách hàng confirm giá.
+On the Quotation screen, after updating the information, the customer confirms the price.
 
-Anh chị tiến hành tạo IB, request cus mở File, thao tác như sau:
-Tích chọn giá Freight ở màn hình danh sách, sau đó click chọn Internal Booking trên thanh công cụ,
+Proceed to create IB, request the customer to open the file, as follows:
+Select the Freight price on the list screen, then click Internal Booking on the toolbar,
 
 ![Placeholder for Create IB Image](../img/sales/createIB.gif)
 
-Phần mềm chuyển qua màn hình thông tin IB:
+The software transitions to the IB information screen:
 
-Điền các thông tin cần thiết, sau đó nhấp **Create** để tiến hành tạo. Lưu ý rằng các thông tin bắt buộc bao gồm: Khách hàng, Đại lý, Hãng tàu/Colader, Người gửi, Người nhận, ...
+Fill in the necessary information, then click **Create** to proceed. Note that the required information includes: Customer, Agent, Shipping Line/Coloader, Shipper, Consignee, ...
 
 ![Placeholder for Create IB Image](./img/truck_ib_info.png)
 
-Sau khi tạo, phần mềm hiển thị nút IBooking (BFSOne),
-anh chị click để gửi thông tin cho customer service mở file.
+After creation, the software displays the IBooking (BFSOne) button,
+click to send information to customer service to open the file.
 
 ![Placeholder for Create IB Image](../img/sales/push_to_bfsone.png)
-

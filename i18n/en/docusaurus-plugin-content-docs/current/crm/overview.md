@@ -2,50 +2,49 @@
 sidebar_position: 1
 ---
 
-# Tổng quan
+# Overview
 
-Hệ thống CRM được xây dựng nhằm mục tiêu quản lý tập trung cơ sở dữ liệu, tăng năng suất và tối ưu hóa các quy trình kinh doanh trong lĩnh vực logistics. Hệ thống bao gồm hai đối tượng người dùng: **Internal** (Sale Cty) và **External** (Khách hàng), với ba module chính: **Logistics Prices**, **Logistics Sales** và **CRM**.
+The CRM system is designed to centrally manage databases, increase productivity, and optimize business processes in the logistics sector. The system includes two user types: **Internal** (Company Sales) and **External** (Customers), with three main modules: **Logistics Prices**, **Logistics Sales**, and **CRM**.
 
-## 1. Mục tiêu của hệ thống
+## 1. System Objectives
 
-### a. Quản lý cơ sở dữ liệu tập trung
-Hệ thống CRM quản lý cơ sở dữ liệu về giá cho các dịch vụ **Sea/Air**, **Logistics**, **Trucking**, và **CBT**, giúp đưa ra phương án đầu tư và quản trị sản phẩm hiệu quả.
+### a. Centralized Database Management
+The CRM system manages pricing databases for **Sea/Air**, **Logistics**, **Trucking**, and **CBT** services, helping to provide effective investment and product management strategies.
 
-### b. Quản trị quy trình mua hàng nội bộ
-Hệ thống cung cấp các công cụ đo lường và quản lý quy trình mua hàng, bao gồm:
-- Số lượng inquiry.
-- Offer và feedback.
-- KPI của từng nhân viên và chi nhánh.
+### b. Internal Purchasing Process Management
+The system provides tools to measure and manage the purchasing process, including:
+- Number of inquiries.
+- Offers and feedback.
+- KPIs for each employee and branch.
 
-### c. Tăng năng suất lao động
-CRM giúp giảm thời gian báo giá bằng cách lưu trữ dữ liệu giá cho các hành trình và dịch vụ thường xuyên. Các công cụ này hỗ trợ sales trong việc:
-- Gửi thư ngỏ và báo giá hàng loạt.
-- Chuyển đổi dữ liệu giá bán tự động sang hệ thống OF1.
+### c. Increased Labor Productivity
+CRM helps reduce quotation time by storing price data for regular routes and services. These tools support sales in:
+- Sending mass introductory letters and quotations.
+- Automatically converting sales price data to the OF1 system.
 
-### d. Kênh Sales & Marketing Online
-Hệ thống tích hợp kênh **sales và marketing online** với các tính năng:
-- Từ e-quote đến booking, track & trace, và e-pay.
-- Thực hiện các chiến dịch marketing như email quảng cáo, promotion.
-- Thu thập phản hồi và đánh giá từ khách hàng.
+### d. Online Sales & Marketing Channel
+The system integrates an **online sales and marketing channel** with features:
+- From e-quote to booking, track & trace, and e-pay.
+- Conducting marketing campaigns such as promotional emails.
+- Collecting feedback and evaluations from customers.
 
-## 2. Module của hệ thống
+## 2. System Modules
 
 ### **Module 1: Logistics Prices**
-- Dữ liệu giá dịch vụ (sea, air, logistics & CBT) được nhập liệu và kiểm duyệt bởi manager.
-- Các văn phòng và đối tác có thể nhập giá trực tiếp vào hệ thống, không cần qua email.
+- Service price data (sea, air, logistics & CBT) is entered and verified by the manager.
+- Offices and partners can enter prices directly into the system without email.
 
 ### **Module 2: Logistics Sales**
-- Sales nhập **inquiry** lên hệ thống. Nếu có sẵn giá, tool sẽ gửi tự động cho sales và khách hàng qua email.
-- Nếu chưa có giá, hệ thống sẽ tự động gửi email đến bộ phận pricing hoặc văn phòng liên quan.
-- Sau khi nhận giá, sales có thể tạo **quotation** và gửi tới khách hàng, có thể áp dụng cho nhiều booking.
-- Khi khách hàng confirm booking, hệ thống sẽ API với OF1 để tạo booking và tự động cập nhật giá vào OF1.
+- Sales enter **inquiries** into the system. If prices are available, the tool will automatically send them to sales and customers via email.
+- If prices are not available, the system will automatically send an email to the pricing department or relevant office.
+- After receiving prices, sales can create **quotations** and send them to customers, applicable for multiple bookings.
+- When customers confirm bookings, the system will API with OF1 to create bookings and automatically update prices in OF1.
 
 ## 3. Dashboard
 
-Hệ thống cung cấp báo cáo chi tiết bao gồm:
-- Số lượng inquiry (có thể lọc theo yêu cầu).
-- Số lượng quotation và booking thành công.
-- Thống kê volume và KPI cho từng vị trí.
+The system provides detailed reports including:
+- Number of inquiries (filterable by request).
+- Number of successful quotations and bookings.
+- Volume statistics and KPIs for each position.
 
-**Dashboard** giúp quản lý dữ liệu tập trung và hỗ trợ phân bổ, tối ưu nguồn lực công ty một cách chính xác.
-```
+The **Dashboard** helps manage centralized data and supports the precise allocation and optimization of company resources.
