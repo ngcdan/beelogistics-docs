@@ -2,81 +2,78 @@
 sidebar_position: 1
 ---
 
-# Tổng quan
+# Overview
 
-Logistics Sales là module quản lý quy trình bán hàng, từ tìm kiếm giá, tạo báo giá cho đến tạo booking nội bộ. Module này giúp bạn:
+Logistics Sales is a module for managing the sales process, from price inquiry, quote creation to internal booking creation. This module helps you:
 
-- Quản lý thông tin khách hàng
-- Tạo và quản lý báo giá
-- Xử lý quy trình booking
-- Theo dõi trạng thái đơn hàng
+- Manage customer information
+- Create and manage quotes
+- Handle the booking process
+- Track order status
 
-## Nội dung hướng dẫn
+## Guide Content
 
-### 1. Vào module nghiệp vụ
+### 1. Access the business module
 
-a. Góc trái màn hình, click chọn ở logo tên công ty để vào danh sách module.
+a. In the top left corner of the screen, click on the company logo to access the module list.
 
-b. Click chọn module Logistics Sales, phần mềm vào màn hình mặc định Dashboard - Overview
+b. Click on the Logistics Sales module, the software will enter the default Dashboard - Overview screen.
 
 ![../img/sales/sale_access.gif](../img/sales/sale_access.gif)
 
-#### Kiểm tra thông tin khách hàng
+#### Check customer information
 
-Trước khi bắt đầu tạo báo giá, anh chị cần kiểm tra thông tin khách hàng được phân quyền ở phần __Customers__:
+Before starting to create a quote, you need to check the customer information assigned in the __Customers__ section:
 
 ![Customer](./img/customers.png)
 
-Lưu ý: Thông tin khách hàng được đồng bộ tự động từ hệ thống BFSOne. Nếu có bất kỳ sai sót hoặc cần cập nhật, vui lòng liên hệ IT để được hỗ trợ.
+Note: Customer information is automatically synchronized from the BFSOne system. If there are any errors or updates needed, please contact IT for support.
 
-### 2. Tìm giá, tạo/ xuất báo giá, tạo Internal Booking.
+### 2. Find prices, create/export quotes, create Internal Booking.
 
-#### Chính sách quản lý báo giá
+#### Quote management policy
 
-- Mỗi báo giá chỉ có một owner duy nhất
-- Owner có toàn quyền xem và quản lý báo giá của mình
-- Các users khác không thể xem/chỉnh sửa báo giá không thuộc quyền quản lý
-- Việc phân quyền này nhằm đảm bảo tính bảo mật thông tin
+- Each quote has only one owner
+- The owner has full rights to view and manage their quote
+- Other users cannot view/edit quotes not under their management
+- This permission ensures information security
 
-#### Hướng dẫn chi tiết theo loại hình
+#### Detailed instructions by type
 
-Tùy theo loại hình vận chuyển, vui lòng tham khảo hướng dẫn chi tiết:
+Depending on the type of transportation, please refer to the detailed instructions:
 
-- **Vận chuyển FCL (Full Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/fcl_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
+- **FCL (Full Container Load) Transport**: [See detailed instructions here](/docs/crm/sales/fcl_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking
 
-- **Vận chuyển LCL (Less Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/lcl_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
+- **LCL (Less Container Load) Transport**: [See detailed instructions here](/docs/crm/sales/lcl_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking
 
-- **Vận chuyển hàng không (Air Freight)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/air_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
+- **Air Freight Transport**: [See detailed instructions here](/docs/crm/sales/air_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking
 
-- **Vận chuyển đường bộ (Trucking)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/trucking_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
+- **Trucking Transport**: [See detailed instructions here](/docs/crm/sales/trucking_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking
 
-### 3. Yêu cầu tạo khách hàng mới
+### 3. Request to create a new customer
 
-Hãy nhấp vào **Menu Customers** trong **Sidebar**.
+Click on **Menu Customers** in the **Sidebar**.
 
-Trên màn hình **danh sách Customers**, dưới thanh công cụ, nhấp vào **New Customer** để yêu cầu tạo **khách hàng mới**.
+On the **Customers list** screen, under the toolbar, click on **New Customer** to request the creation of a **new customer**.
 
 ![Create Customer](./img/create_customer.png)
 
-Phần mềm sẽ hiển thị một **biểu mẫu thông tin** cần nhập. Vui lòng điền đầy đủ thông tin và nhấp vào **Create** để gửi **yêu cầu**.
+The software will display an **information form** to be filled out. Please complete the information and click **Create** to submit the **request**.
 
 ![Form Customer](./img/form_customer.png)
 
-Sau khi nhấn **"Create"** để gửi yêu cầu, hệ thống sẽ chuyển thông tin đến **BFSOne** để chờ phê duyệt từ người có thẩm quyền.
+After clicking **"Create"** to submit the request, the system will send the information to **BFSOne** for approval from an authorized person.
 
-Khi yêu cầu được phê duyệt, bạn có thể sử dụng thông tin khách hàng này cho các **báo giá** của mình.
-
-
-
+Once the request is approved, you can use this customer information for your **quotes**.

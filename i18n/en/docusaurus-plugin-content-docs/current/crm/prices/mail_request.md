@@ -5,69 +5,63 @@ toc: false
 
 # Mail Request
 
-Hướng dẫn chi tiết về cách sử dụng các tính năng liên quan đến tích hợp **email/outlook** trên **Logistics Prices**.
+Detailed instructions on how to use features related to **email/outlook** integration on **Logistics Prices**.
 
-## Tính năng Mail Request Pricing (Check giá)
+## Mail Request Pricing Feature (Price Check)
 
-Khi không tìm thấy giá phù hợp cho một tuyến vận chuyển cụ thể, bạn có thể sử dụng tính năng **Request Pricing** để gửi yêu cầu hỏi giá qua email.
+When you cannot find a suitable price for a specific shipping route, you can use the **Request Pricing** feature to send a price inquiry via email.
 
-### Quy trình thực hiện
+### Process
 
-1. Trên màn hình search giá, thực hiện tìm kiếm cho tuyến đường cần báo giá
-2. Nếu không có kết quả phù hợp, nhấn nút `Request Pricing` trên thanh công cụ để mở form yêu cầu
+1. On the price search screen, perform a search for the route you need a quote for.
+2. If there are no suitable results, click the `Request Pricing` button on the toolbar to open the request form.
 
 ![mail_request.png](./img/mail_request.png)
 
-### Form yêu cầu báo giá
+### Price Inquiry Form
 
-#### 1. Thông tin người gửi/nhận
-- **From (Email)**: Email người gửi yêu cầu
-- **TO**: Email chính của team Pricing _(tự động điền theo tuyến)_
-- **TO (External Email)**: Email người nhận bổ sung (ngoài hệ thống)
-- **CC**: Email CC trong hệ thống
-- **CC (External Email)**: Email CC bổ sung (ngoài hệ thống)
+#### 1. Sender/Recipient Information
+- **From (Email)**: Email of the person sending the request
+- **TO**: Main email of the Pricing team _(automatically filled according to the route)_
+- **TO (External Email)**: Additional recipient email (outside the system)
+- **CC**: CC email within the system
+- **CC (External Email)**: Additional CC email (outside the system)
 
-#### 2. File đính kèm
-- **Attachments**: Tải lên file đính kèm (tối đa 35MB)
-  - Kéo thả file trực tiếp vào form
-  - Hoặc chọn file từ máy tính
+#### 2. Attachments
+- **Attachments**: Upload attachments (maximum 35MB)
+  - Drag and drop files directly into the form
+  - Or select files from your computer
 
-> **Lưu ý**: Sau khi điền đầy đủ thông tin, nhấn `Send Request` để gửi yêu cầu
+> **Note**: After filling in all the information, click `Send Request` to send the inquiry.
 
-### Demo thao tác
+### Demo
 ![mail_request.gif](../img/mail_request.gif)
 
-## Quản lý yêu cầu đã gửi
+## Managing Sent Requests
 
-### Xem lại yêu cầu
-Trên thanh menu, chọn **Inquiry Requests**, bạn có thể xem lại danh sách các yêu cầu đã gửi trước đó:
+### Reviewing Requests
+On the menu bar, select **Inquiry Requests**, where you can review the list of previously sent requests:
 
 ![mail_request_list.png](./img/mail_request_list.png)
 
-#### Các chức năng có sẵn trên màn hình.
-1. Chỉnh sửa và gửi lại yêu cầu cũ (được xử lý như một yêu cầu mới).
+#### Available functions on the screen.
+1. Edit and resend old requests (processed as a new request).
 
-Để tránh việc phải nhập lại thông tin khi gửi yêu cầu tương tự:
-- Nhấp vào biểu tượng ở đầu mỗi dòng, hệ thống sẽ tự động điền thông tin từ yêu cầu trước đó
-- Cập nhật các thông tin cần thiết và gửi yêu cầu mới
+To avoid re-entering information when sending a similar request:
+- Click the icon at the beginning of each line, the system will automatically fill in information from the previous request.
+- Update necessary information and send a new request.
 
-2. Mở form và tạo yêu cầu mới (theo hướng dẫn đã nêu).
-3. Thay đổi quy trình của Yêu cầu.
-- Trong trường hợp thông tin gửi bị sai, cần thay đổi trạng thái thành `Reject`.
-- Thay đổi bằng cách click vào thông tin status ở cột Process
+2. Open the form and create a new request (as per the instructions provided).
+3. Change the process of the Request.
+- In case the sent information is incorrect, change the status to `Reject`.
+- Change by clicking on the status information in the Process column.
 
 ![resend_mail.png](./img/resend_mail.png)
 
-### Tính năng tự động điền thông tin
-- Khi tạo yêu cầu mới, hệ thống sẽ tự động kiểm tra yêu cầu tương tự đã gửi trước đó
-- Nếu tìm thấy, hệ thống sẽ hiển thị popup thông báo
-- Nhấn `OK` để tự động điền thông tin từ yêu cầu cũ vào form mới
-- Giúp tiết kiệm thời gian và đảm bảo tính nhất quán của thông tin
+### Auto-fill Feature
+- When creating a new request, the system will automatically check for similar requests sent previously.
+- If found, the system will display a notification popup.
+- Click `OK` to automatically fill in information from the old request into the new form.
+- Helps save time and ensure information consistency.
 
 ![mail_remember.png](./img/mail_remember.png)
-
-
-
-
-
-

@@ -3,77 +3,84 @@ sidebar_position: 2
 toc: false
 ---
 
-# Tìm kiếm giá (Sales)
+# Price Search (Sales)
 
-Dưới đây là hướng dẫn chi tiết về cách sử dụng các tính năng tìm kiếm giá trên hệ thống dành cho Sales.
+Below is a detailed guide on how to use the price search features in the system for Sales.
 
-## Truy cập module Sales
+## Access the Sales module
 
-a. Góc trái màn hình, click chọn ở logo tên công ty để vào danh sách module.
+a. In the top left corner of the screen, click on the company logo to access the module list.
 
-b. Click chọn module Logistics Sales, phần mềm vào màn hình mặc định Dashboard - Overview
+b. Click on the Logistics Sales module, the software will enter the default Dashboard - Overview screen.
 
-_Báo IT support nếu bạn không nhìn thấy Module Sales trên màn hình danh sách modules._
+_Report to IT support if you do not see the Sales Module on the module list screen._
 
 ![../img/sales/sale_access.gif](../img/sales/sale_access.gif)
 
-## Giao diện tổng quan
-Ở màn hình Dashboard, chọn `Quick Rate Finder` trên Sidebar bên phải để vào màn hình tìm kiếm giá.
+## Overview Interface
+
+On the Dashboard screen, select `Quick Rate Finder` on the right Sidebar to enter the price search screen.
 
 ![rate_finder.png](./img/quick_rate_finder.png)
 
-Mặc định, hệ thống sẽ hiển thị các giá đang có hiệu lực (ngày hết hạn lớn hơn ngày hiện tại).
+By default, the system will display prices that are currently valid (expiration date is later than the current date).
 
+At the top of the interface are the types of transportation including `Sea Freight (FCL)`, `Sea Freight (LCL)`, `Air Freight`, and `Trucking`.
 
-Nhập các thông tin cần thiết:
-   - **Origin of Shipment** (Cảng load)
-   - **Destination of Shipment** (Cảng dỡ)
-   - **Ready to Load** (Ngày hàng có thể vận chuyển) - phần mềm sẽ dựa vào ngày này để tìm giá hợp lệ.
+Please click on the type of transportation that suits your needs.
 
-Hoặc tìm kiếm bổ sung bằng tuỳ chọn `Tìm kiếm nhanh`:
+Next, please enter the necessary information:
+   - **Origin of Shipment** (Loading Port)
+   - **Destination of Shipment** (Unloading Port)
+   - **Ready to Load** (Date the goods are ready for transport) - the software will use this date to search for valid prices.
+   - **Import / Export** (Import or Export goods)
 
-Chỉ cần nhập từ khóa cần tìm, hệ thống sẽ tự động lọc và hiển thị các kết quả phù hợp.
+After entering the information, the system will automatically search for prices based on the information you have provided.
+
+Additionally, you can perform a supplementary search using the `Quick Search` option:
+
+Simply enter the keyword you need to find, and the system will automatically filter and display the appropriate results.
 
 ![search_bar.png](./img/search_bar.png)
 
-Lưu ý quan trọng:
+Important Note:
 
-Tính năng tìm kiếm nhanh chỉ thực hiện tìm kiếm trên dữ liệu đang được hiển thị trên màn hình hiện tại,
-không thực hiện tìm kiếm trong toàn bộ cơ sở dữ liệu. Điều này giúp tăng tốc độ tìm kiếm và cho kết quả ngay lập tức.
+The quick search feature only searches the data currently displayed on the screen,
+it does not search the entire database. This helps speed up the search and provides immediate results.
 
-### 3. Các tính năng hỗ trợ
+### 3. Supporting Features
 
-- **Yêu cầu kiểm tra giá**: Bạn có thể gửi yêu cầu kiểm tra giá đến Pricing Team bằng cách nhấn nút "Request Pricing". Hệ thống sẽ tự động gửi email yêu cầu.
+- **Request Price Check**: You can send a price check request to the Pricing Team by pressing the "Request Pricing" button. The system will automatically send an email request.
 
-- **Tạo báo giá**: Để tạo báo giá mới:
-  1. Chọn mức giá phù hợp từ bảng giá
-  2. Nhấn nút "Request a Quote"
-  3. Hệ thống sẽ chuyển bạn đến màn hình tạo báo giá
+- **Create a Quote**: To create a new quote:
+  1. Select the appropriate price from the price list
+  2. Press the "Request a Quote" button
+  3. The system will take you to the quote creation screen
 
-- **Xuất báo giá**: Để xuất báo giá ra file Excel:
-  1. Chọn mức giá cần xuất
-  2. Nhấn nút "Export a Quote"
-  3. File Excel sẽ được tải về máy của bạn
+- **Export a Quote**: To export a quote to an Excel file:
+  1. Select the price to be exported
+  2. Press the "Export a Quote" button
+  3. The Excel file will be downloaded to your computer
 
 ![extra_func.png](./img/extra_func.png)
 
-Chi tiết về cách sử dụng, vui lòng tham khảo [hướng dẫn tại đây](/docs/crm/prices/mail_request).
+For detailed usage instructions, please refer to [the guide here](/docs/crm/prices/mail_request).
 
-### 4. Xem biến động giá FCL Export
+### 4. View FCL Export Price Fluctuations
 
-Bạn có thể xem biến động giá theo thời gian bằng cách:
+You can view price fluctuations over time by:
 
-1. Vào màn hình tìm kiếm giá FCL Export
-2. Nhấn nút "Analysis"
+1. Going to the FCL Export price search screen
+2. Pressing the "Analysis" button
 
 ![./img/price_fcl_analysis.png](./img/price_fcl_analysis.png)
 
-Màn hình sẽ hiển thị:
-- Danh sách giá trước và sau thời điểm hiện tại
-- Giá bạn đang chọn sẽ được tô màu vàng
-- Cột "Comparison" cho biết % chênh lệch so với giá đang chọn
+The screen will display:
+- A list of prices before and after the current time
+- The price you are selecting will be highlighted in yellow
+- The "Comparison" column shows the % difference compared to the selected price
 
-- Để so sánh giá giữa các hãng tàu khác nhau, bạn có thể bỏ trống thông tin ở cột Carrier trong màn hình lọc. Điều này giúp bạn dễ dàng đánh giá và lựa chọn mức giá tốt nhất giữa các Lines.
+- To compare prices between different shipping lines, you can leave the Carrier column blank in the filter screen. This helps you easily evaluate and choose the best price among the Lines.
 
 **Demo:**
 
@@ -88,27 +95,26 @@ Màn hình sẽ hiển thị:
           allowFullScreen />
   </div>
 
+### 5. Guide to Creating Quotes by Type
 
-### 5. Hướng dẫn quy trình tạo báo giá theo loại hình
+Depending on the type of transportation, please refer to the detailed guide:
 
-Tùy theo loại hình vận chuyển, vui lòng tham khảo hướng dẫn chi tiết:
+- **FCL (Full Container Load) Transport**: [See detailed instructions here](/docs/crm/sales/fcl_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking
 
-- **Vận chuyển FCL (Full Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/fcl_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
+- **LCL (Less Container Load) Transport**: [See detailed instructions here](/docs/crm/sales/lcl_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking
 
-- **Vận chuyển LCL (Less Container Load)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/lcl_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
+- **Air Freight Transport**: [See detailed instructions here](/docs/crm/sales/air_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking
 
-- **Vận chuyển hàng không (Air Freight)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/air_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
-
-- **Vận chuyển đường bộ (Trucking)**: [Xem hướng dẫn chi tiết tại đây](/docs/crm/sales/trucking_process)
-  - Quy trình tìm giá
-  - Tạo và xuất báo giá
-  - Tạo Internal Booking
+- **Trucking Transport**: [See detailed instructions here](/docs/crm/sales/trucking_process)
+  - Price inquiry process
+  - Create and export quotes
+  - Create Internal Booking

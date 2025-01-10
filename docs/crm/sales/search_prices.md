@@ -22,15 +22,21 @@ _Báo IT support nếu bạn không nhìn thấy Module Sales trên màn hình d
 
 ![rate_finder.png](./img/quick_rate_finder.png)
 
-Mặc định, hệ thống sẽ hiển thị các giá đang có hiệu lực (ngày hết hạn lớn hơn ngày hiện tại).
+Theo mặc định, hệ thống sẽ hiển thị các mức giá hiện đang có hiệu lực (ngày hết hạn lớn hơn ngày hiện tại).
 
+Trên đầu giao diện là các loại hình vận chuyển bao gồm `Sea Freight (FCL)`, `Sea Freight (LCL)`, `Air Freight`, và `Trucking`.
 
-Nhập các thông tin cần thiết:
-   - **Origin of Shipment** (Cảng load)
-   - **Destination of Shipment** (Cảng dỡ)
-   - **Ready to Load** (Ngày hàng có thể vận chuyển) - phần mềm sẽ dựa vào ngày này để tìm giá hợp lệ.
+Hãy nhấp chọn loại hình vận chuyển phù hợp với nhu cầu của bạn.
 
-Hoặc tìm kiếm bổ sung bằng tuỳ chọn `Tìm kiếm nhanh`:
+Tiếp theo, vui lòng nhập các thông tin cần thiết:
+   - **Origin of Shipment** (Cảng xếp hàng)
+   - **Destination of Shipment** (Cảng dỡ hàng)
+   - **Ready to Load** (Ngày hàng sẵn sàng để vận chuyển) - phần mềm sẽ sử dụng ngày này để tìm kiếm các mức giá hợp lệ.
+   - **Import / Export** (Hàng nhập khẩu hoặc xuất khẩu)
+
+Sau khi nhập xong, hệ thống sẽ tự động tìm kiếm các mức giá dựa trên thông tin bạn đã cung cấp.
+
+Ngoài ra, bạn có thể thực hiện tìm kiếm bổ sung bằng cách sử dụng tùy chọn `Tìm kiếm nhanh`:
 
 Chỉ cần nhập từ khóa cần tìm, hệ thống sẽ tự động lọc và hiển thị các kết quả phù hợp.
 
