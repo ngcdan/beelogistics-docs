@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.CRM": {
+    "message": "CRM",
+    "description": "The label for category CRM in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CRM.link.generated-index.description": {
+    "message": "Tài liệu hướng dẫn sử dụng hệ thống CRM.",
+    "description": "The generated-index page description for category CRM in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Logistics Prices": {
+    "message": "Logistics Prices",
+    "description": "The label for category Logistics Prices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Logistics Prices.link.generated-index.description": {
+    "message": "Tài liệu hướng dẫn sử dụng module Logistics Prices.",
+    "description": "The generated-index page description for category Logistics Prices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Logistics Sales": {
+    "message": "Logistics Sales",
+    "description": "The label for category Logistics Sales in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Logistics Sales.link.generated-index.description": {
+    "message": "Tài liệu hướng dẫn sử dụng module Logistics Sales.",
+    "description": "The generated-index page description for category Logistics Sales in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.OKR": {
+    "message": "OKR",
+    "description": "The label for category OKR in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TMS": {
+    "message": "TMS",
+    "description": "The label for category TMS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Project - Đầu việc": {
+    "message": "Project - Đầu việc",
+    "description": "The label for category Project - Đầu việc in sidebar tutorialSidebar"
+  }
+}

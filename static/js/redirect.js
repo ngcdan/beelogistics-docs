@@ -1,5 +1,7 @@
 (function () {
   const userLang = navigator.language || navigator.userLanguage;
+  console.log(userLang);
+
   const supportedLocales = ['vi', 'en', 'zh-Hans'];
   const defaultLocale = 'vi';
 

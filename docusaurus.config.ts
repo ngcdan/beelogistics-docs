@@ -21,12 +21,12 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  scripts: [
-    {
-      src: '/js/redirect.js',
-      async: true,
-    },
-  ],
+  // scripts: [
+  //   {
+  //     src: '/js/redirect.js',
+  //     async: true,
+  //   },
+  // ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -34,15 +34,19 @@ const config: Config = {
   i18n: {
     defaultLocale: 'vi', // Cập nhật ngôn ngữ mặc định thành tiếng Việt
     locales: ['vi', 'en', 'zh-Hans'], // Thêm các bản dịch tiếng Anh và tiếng Trung
+    path: 'i18n',
     localeConfigs: {
       vi: {
         htmlLang: 'vi-VN', // Cấu hình ngôn ngữ HTML cho tiếng Việt
+        direction: 'ltr',
       },
       en: {
         htmlLang: 'en-GB',
+        direction: 'ltr',
       },
       "zh-Hans": {
         htmlLang: 'zh-Hans', // Cấu hình ngôn ngữ HTML cho tiếng Trung giản thể
+        direction: 'ltr',
       },
     }
   },
