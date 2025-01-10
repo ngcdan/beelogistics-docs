@@ -21,12 +21,30 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  scripts: [
+    {
+      src: '/js/redirect.js',
+      async: true,
+    },
+  ],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'vi', // Cập nhật ngôn ngữ mặc định thành tiếng Việt
+    locales: ['vi', 'en', 'zh-Hans'], // Thêm các bản dịch tiếng Anh và tiếng Trung
+    localeConfigs: {
+      vi: {
+        htmlLang: 'vi-VN', // Cấu hình ngôn ngữ HTML cho tiếng Việt
+      },
+      en: {
+        htmlLang: 'en-GB',
+      },
+      "zh-Hans": {
+        htmlLang: 'zh-Hans', // Cấu hình ngôn ngữ HTML cho tiếng Trung giản thể
+      },
+    }
   },
 
   presets: [
@@ -64,6 +82,10 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           href: 'https://github.com/ngcdan/beelogistics-docs',

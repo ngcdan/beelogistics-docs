@@ -1,0 +1,1 @@
+!function(){const n=navigator.language||navigator.userLanguage,a=["vi","en","zh-Hans"],e=a.includes(n)?n:"vi",i=window.location.pathname,o=new RegExp(`^/(${a.join("|")})`),t=i.replace(o,"");i.startsWith(`/${e}`)||window.location.replace(`/${e}${t}`)}();
